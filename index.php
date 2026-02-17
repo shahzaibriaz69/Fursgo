@@ -15,7 +15,6 @@
 </head>
 
 <body>
-
     <div class="dashboard-container">
         <aside class="profile-sidebar">
             <div class="sidebar-header">
@@ -76,12 +75,14 @@
                         </svg> Confirmed</div>
                 </div>
                 <div class="card-middle">
-                    <div class="studio-thumb-wrapper">
-                        <img src="images/studio1.jpg" class="studio-thumb">
-                    </div>
-                    <div class="studio-info">
-                        <h3>Sarah's Grooming Studio</h3>
-                        <p>Sarah W.</p>
+                    <div>
+                        <div class="studio-thumb-wrapper">
+                            <img src="images/card_image_2.png" class="studio-thumb">
+                        </div>
+                        <div class="studio-info">
+                            <h3>Sarah's Grooming Studio</h3>
+                            <p>Sarah W.</p>
+                        </div>
                     </div>
                     <button class="view-button orange-btn">View</button>
                 </div>
@@ -121,20 +122,22 @@
                         <span class="pill-badge pink-pill">Garden / Shed</span>
                         <span class="category-text pink-text">Space Booking</span>
                     </div>
-                    <div class="status-confirmed"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    <div class="status-confirmed"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                             viewBox="0 0 16 16" fill="none">
                             <path
                                 d="M8 0C3.6 0 0 3.6 0 8C0 12.4 3.6 16 8 16C12.4 16 16 12.4 16 8C16 3.6 12.4 0 8 0ZM6.4 12L2.4 8L3.528 6.872L6.4 9.736L12.472 3.664L13.6 4.8L6.4 12Z"
                                 fill="#B5CA89" />
                         </svg> Confirmed</div>
                 </div>
-                <div class="card-middle">
-                    <div class="studio-thumb-wrapper">
-                        <img src="images/studio2.jpg" class="studio-thumb">
-                    </div>
-                    <div class="studio-info">
-                        <h3>Furs & Co. Studio</h3>
-                        <p>Hosted by Dev É.</p>
+                <div class="card-middle pink ">
+                    <div>
+                        <div class="studio-thumb-wrapper">
+                            <img src="images/card_image_1.png" class="studio-thumb">
+                        </div>
+                        <div class="studio-info">
+                            <h3>Furs & Co. Studio</h3>
+                            <p>Hosted by Dev É.</p>
+                        </div>
                     </div>
                     <button class="view-button pink-btn">View</button>
                 </div>
