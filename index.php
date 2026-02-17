@@ -212,6 +212,70 @@
         <button class="tab">Rewards</button>
     </nav>
 
+    <section class="profile-details-card">
+        <div class="profile-details-header">
+            <div class="avatar-placeholder">
+                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="50" fill="#E6E6E6" />
+                    <circle cx="50" cy="40" r="15" fill="white" />
+                    <path d="M20 85C20 70 35 60 50 60C65 60 80 70 80 85" stroke="white" stroke-width="2" />
+                </svg>
+            </div>
+
+            <div class="details-grid">
+                <div class="detail-item">
+                    <label>Full Name</label>
+                    <p>Verity Eve</p>
+                </div>
+
+                <div class="edit-action">
+                    <button class="btn-edit-outline">
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2">
+                            <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                            <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                        </svg>
+                        Edit details
+                    </button>
+                </div>
+
+                <div class="detail-item">
+                    <label>Email Address</label>
+                    <p>veve@gmail.com</p>
+                </div>
+
+                <div class="detail-item">
+                    <label>Phone Number</label>
+                    <p>+44 00 0000 0000</p>
+                </div>
+
+                <div class="detail-item">
+                    <label>Address Line 1</label>
+                    <p>12 King's Road</p>
+                </div>
+
+                <div class="detail-item">
+                    <label>City</label>
+                    <p>London</p>
+                </div>
+
+                <div class="detail-item">
+                    <label>Post Code</label>
+                    <p>SW3 4JP</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bio-section">
+            <label>Bio</label>
+            <p>Hi! I'm Sarah, and I'm a lifelong dog lover based in South London. I have two small dogs who are very
+                much part of the family. We're looking for calm, caring groomers who are gentle and patient, especially
+                with nervous pups.</p>
+        </div>
+    </section>
+
+    <?php include 'footer.php'; ?>
+
 
     <script src="js/script.js"></script>
 </body>
