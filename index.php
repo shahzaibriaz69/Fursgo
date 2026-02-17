@@ -60,6 +60,7 @@
 
         <main class="bookings-content">
             <h2 class="section-title">Upcoming Bookings</h2>
+            <hr class="divider">
 
             <div class="booking-card orange-card">
                 <div class="card-top">
@@ -81,7 +82,7 @@
                         </div>
                         <div class="studio-info">
                             <h3>Sarah's Grooming Studio</h3>
-                            <p>Sarah W.</p>
+                            <p style="color:#9d9b98">Sarah W.</p>
                         </div>
                     </div>
                     <button class="view-button orange-btn">View</button>
@@ -136,7 +137,7 @@
                         </div>
                         <div class="studio-info">
                             <h3>Furs & Co. Studio</h3>
-                            <p>Hosted by Dev É.</p>
+                            <p>Hosted by <span>Dev É</span>.</p>
                         </div>
                     </div>
                     <button class="view-button pink-btn">View</button>
@@ -169,6 +170,47 @@
             </div>
         </main>
     </div>
+
+    <section class="details-completion">
+        <div class="header-row">
+            <div>
+                <h2>Just a few more details</h2>
+                <p>Complete your profile to make booking quicker and easier.</p>
+            </div>
+
+        </div>
+
+        <div class="details-grid">
+            <div class="progress-container">
+                <div class="gauge-wrapper">
+                    <div class="gauge-body"></div>
+                    <div class="gauge-fill" style="transform: rotate(0.6turn)"></div>
+                    <div class="gauge-cover">60%</div>
+                </div>
+                <div class="gauge-labels">
+                    <span>0%</span>
+                    <span>100%</span>
+                </div>
+            </div>
+
+            <div class="action-card">
+                <h3>Verify your email address</h3>
+                <button class="btn-verify">Verify Now</button>
+            </div>
+            <div class="action-card">
+                <h3>Upload a profile picture</h3>
+                <button class="btn-verify">Upload Now</button>
+            </div>
+        </div>
+    </section>
+
+    <nav class="profile-tabs">
+        <button class="tab active">My Profile</button>
+        <button class="tab">My Pets</button>
+        <button class="tab">Favourites</button>
+        <button class="tab">Reviews</button>
+        <button class="tab">Rewards</button>
+    </nav>
 
 
     <script src="js/script.js"></script>

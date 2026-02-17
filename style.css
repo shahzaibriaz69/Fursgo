@@ -135,9 +135,18 @@ body {
   object-fit: cover;
 }
 
-.rating span {
+.stats-line {
+  margin: 12px 0;
+}
+
+.review-text {
   color: #888;
 }
+
+.strong {
+  color: #3b3731;
+}
+
 .location {
   margin-top: 10px;
   color: #555;
@@ -157,9 +166,11 @@ body {
 }
 
 .profile-sidebar {
+  width: 400px;
+  height: 450px;
   flex: 0 0 320px;
   background: #fff;
-  padding: 25px;
+  padding: 33px;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.04);
   text-align: center;
@@ -191,8 +202,9 @@ body {
 }
 
 .avatar-img {
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
+  aspect-ratio: 1/1;
   object-fit: cover;
 }
 
@@ -207,18 +219,24 @@ body {
 }
 
 .section-title {
-  font-size: 18px;
-  margin-bottom: 10px;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
   font-weight: 600;
+  line-height: normal;
 }
-.title-divider {
-  border: 0;
-  border-top: 1px solid #eee;
-  margin-bottom: 20px;
+.divider {
+  border: none;
+  border-top: 1px solid #d4d4d4;
+  margin: 13px 0 20px 0;
+  width: 93%;
 }
 
 .booking-card {
   margin-bottom: 20px;
+  width: 610px;
+  height: 183px;
 }
 
 .orange-card {
@@ -304,13 +322,17 @@ body {
   margin: 0;
 }
 .studio-info p {
-  font-size: 13px;
-  color: #777;
+  font-size: 16x;
+  color: #3b3731;
   margin: 0;
 }
 
+.studio-info p span {
+  color: #9d9b98;
+}
+
 .view-button {
-  padding: 10px 15px;
+  padding: 13px 25px;
   border-radius: 25px;
   border: none;
   color: white;
@@ -328,9 +350,17 @@ body {
 .card-bottom {
   display: flex;
   gap: 20px;
-  font-size: 13px;
-  color: #555;
-  padding-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3b3731;
+  padding: 10px 0 12px 25px;
+  align-items: center;
+}
+
+.card-bottom span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .status-confirmed {
@@ -339,4 +369,115 @@ body {
   align-items: center;
   gap: 10px;
   color: #b5ca89;
+}
+
+/* Progress Section Layout */
+.details-completion {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 1000px;
+  margin: 0 auto;
+  font-family: lato;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.details-grid {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Semi-Circle Gauge */
+.progress-container {
+  width: 150px;
+  position: relative;
+}
+
+.gauge-wrapper {
+  position: relative;
+  width: 150px;
+  height: 75px;
+  overflow: hidden;
+}
+
+.gauge-body {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #fff9f0;
+  border: 15px solid #fff9f0;
+}
+
+.gauge-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 15px solid #ffc97a;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+
+.gauge-cover {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Action Cards */
+.action-card {
+  background: #fffaf2;
+  padding: 30px 20px;
+  border-radius: 12px;
+  text-align: center;
+  flex: 1;
+}
+
+.btn-verify {
+  background: #ffc97a;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 600;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+/* Tabs Navigation */
+.profile-tabs {
+  display: flex;
+  gap: 10px;
+  background: white;
+  padding: 5px;
+  border-radius: 30px;
+  border: 1px solid #eee;
+  width: fit-content;
+  margin: 30px auto;
+}
+
+.tab {
+  padding: 10px 25px;
+  border-radius: 25px;
+  border: none;
+  background: none;
+  color: #888;
+  cursor: pointer;
+}
+
+.tab.active {
+  background: #ffc97a;
+  color: white;
 }

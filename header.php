@@ -4,7 +4,7 @@
 
         <!-- Logo -->
         <div class="logo">
-            <a href="index.php">fursgo</a>
+            <a href="index.php"><img src="images/Logo_image.svg" alt=""></a>
         </div>
 
         <!-- Navigation Menu -->
