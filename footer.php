@@ -11,7 +11,7 @@
 
     <div class="footer-main">
         <div class="footer-brand">
-            <img src="images/logo-fursgo.png" alt="fursgo" class="footer-logo">
+            <img src="images/Logo_image.svg" alt="fursgo" class="footer-logo">
             <p>Join Fursgo to grow your business with verified bookings and loyal clients.</p>
             <p><a href="#">Become a Provider</a> • <a href="#" class="link-bold">Learn More</a></p>
         </div>
