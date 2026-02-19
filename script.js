@@ -11,3 +11,11 @@ tabs.forEach(tab => {
     });
 });
 
+const dotsMenu = document.querySelector('.dots-menu');
+const editBtn = document.querySelector('.edit-button');
+
+dotsMenu.addEventListener('click', () => {
+    // .toggle adds the class if it's missing, and removes it if it's there
+    editBtn.classList.toggle('show');
+});
+

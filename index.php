@@ -111,7 +111,9 @@
                                 <path
                                     d="M4.94499 13.2998C5.42698 12.8178 5.42698 12.0364 4.94499 11.5544C4.463 11.0724 3.68153 11.0724 3.19954 11.5544L0.872287 13.8816C0.390296 14.3636 0.390296 15.1451 0.872287 15.6271C1.35428 16.1091 2.13574 16.1091 2.61773 15.6271L4.94499 13.2998Z"
                                     stroke="#3B3731" stroke-linecap="round" stroke-linejoin="round" />
-                            </svg> Full Groom</span>
+                            </svg>
+                            <p>Full Groom</p>
+                        </span>
                         <span><svg xmlns="http://www.w3.org/2000/svg" width="19" height="17" viewBox="0 0 19 17"
                                 fill="none">
                                 <path
@@ -122,13 +124,17 @@
                                 <path
                                     d="M14.2144 12.3975C14.2144 12.6151 14.1241 12.8238 13.9634 12.9777C13.8026 13.1315 13.5846 13.218 13.3573 13.218C13.13 13.218 12.9119 13.1315 12.7512 12.9777C12.5904 12.8238 12.5001 12.6151 12.5001 12.3975C12.5001 12.1799 12.5904 11.9712 12.7512 11.8173C12.9119 11.6634 13.13 11.577 13.3573 11.577C13.5846 11.577 13.8026 11.6634 13.9634 11.8173C14.1241 11.9712 14.2144 12.1799 14.2144 12.3975ZM14.2144 9.11543C14.2144 9.33305 14.1241 9.54175 13.9634 9.69562C13.8026 9.8495 13.5846 9.93595 13.3573 9.93595C13.13 9.93595 12.9119 9.8495 12.7512 9.69562C12.5904 9.54175 12.5001 9.33305 12.5001 9.11543C12.5001 8.89782 12.5904 8.68912 12.7512 8.53524C12.9119 8.38137 13.13 8.29492 13.3573 8.29492C13.5846 8.29492 13.8026 8.38137 13.9634 8.53524C14.1241 8.68912 14.2144 8.89782 14.2144 9.11543ZM9.92871 12.3975C9.92871 12.6151 9.83841 12.8238 9.67766 12.9777C9.51691 13.1315 9.2989 13.218 9.07157 13.218C8.84424 13.218 8.62622 13.1315 8.46548 12.9777C8.30473 12.8238 8.21443 12.6151 8.21443 12.3975C8.21443 12.1799 8.30473 11.9712 8.46548 11.8173C8.62622 11.6634 8.84424 11.577 9.07157 11.577C9.2989 11.577 9.51691 11.6634 9.67766 11.8173C9.83841 11.9712 9.92871 12.1799 9.92871 12.3975ZM9.92871 9.11543C9.92871 9.33305 9.83841 9.54175 9.67766 9.69562C9.51691 9.8495 9.2989 9.93595 9.07157 9.93595C8.84424 9.93595 8.62622 9.8495 8.46548 9.69562C8.30473 9.54175 8.21443 9.33305 8.21443 9.11543C8.21443 8.89782 8.30473 8.68912 8.46548 8.53524C8.62622 8.38137 8.84424 8.29492 9.07157 8.29492C9.2989 8.29492 9.51691 8.38137 9.67766 8.53524C9.83841 8.68912 9.92871 8.89782 9.92871 9.11543ZM5.643 12.3975C5.643 12.6151 5.55269 12.8238 5.39195 12.9777C5.2312 13.1315 5.01318 13.218 4.78585 13.218C4.55853 13.218 4.34051 13.1315 4.17976 12.9777C4.01902 12.8238 3.92871 12.6151 3.92871 12.3975C3.92871 12.1799 4.01902 11.9712 4.17976 11.8173C4.34051 11.6634 4.55853 11.577 4.78585 11.577C5.01318 11.577 5.2312 11.6634 5.39195 11.8173C5.55269 11.9712 5.643 12.1799 5.643 12.3975ZM5.643 9.11543C5.643 9.33305 5.55269 9.54175 5.39195 9.69562C5.2312 9.8495 5.01318 9.93595 4.78585 9.93595C4.55853 9.93595 4.34051 9.8495 4.17976 9.69562C4.01902 9.54175 3.92871 9.33305 3.92871 9.11543C3.92871 8.89782 4.01902 8.68912 4.17976 8.53524C4.34051 8.38137 4.55853 8.29492 4.78585 8.29492C5.01318 8.29492 5.2312 8.38137 5.39195 8.53524C5.55269 8.68912 5.643 8.89782 5.643 9.11543Z"
                                     fill="#3B3731" />
-                            </svg> 18/12/2025</span>
+                            </svg>
+                            <p>18/12/2025</p>
+                        </span>
                         <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"
                                 fill="none">
                                 <path
                                     d="M8 0.5C12.1423 0.5 15.5 3.85774 15.5 8C15.5 12.1423 12.1423 15.5 8 15.5C3.85774 15.5 0.5 12.1423 0.5 8C0.5 3.85774 3.85774 0.5 8 0.5Z"
                                     stroke="#3B3731" stroke-linecap="round" />
-                            </svg> 14:30 - 15:30 (90 mins)</span>
+                            </svg>
+                            <p>14:30 - 15:30 (90 mins)</p>
+                        </span>
                     </div>
                 </div>
 
@@ -227,66 +233,74 @@
             <button class="tab">Rewards</button>
         </nav>
 
-        <section class="profile-details-card">
-            <div class="profile-details-header">
-                <div class="avatar-placeholder">
-                    <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <circle cx="50" cy="50" r="50" fill="#E6E6E6" />
-                        <circle cx="50" cy="40" r="15" fill="white" />
-                        <path d="M20 85C20 70 35 60 50 60C65 60 80 70 80 85" stroke="white" stroke-width="2" />
-                    </svg>
+        <section class="profile-header">
+            <h3>My Profile</h3>
+            <hr class="divider">
+
+
+            <div class="profile-details-card">
+                <div class="profile-details-header">
+                    <div class="avatar-placeholder">
+                        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="50" cy="50" r="50" fill="#E6E6E6" />
+                            <circle cx="50" cy="40" r="15" fill="white" />
+                            <path d="M20 85C20 70 35 60 50 60C65 60 80 70 80 85" stroke="white" stroke-width="2" />
+                        </svg>
+                    </div>
+
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <label>Full Name</label>
+                            <p>Verity Eve</p>
+                        </div>
+
+                        <div class="edit-action">
+                            <button class="btn-edit-outline">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
+                                    fill="none">
+                                    <path
+                                        d="M10.2059 2.37997L12.8529 4.97712M8.44118 14.5H15.5M1.38235 11.0371L0.5 14.5L4.02941 13.6343L14.2524 3.60409C14.5832 3.2794 14.769 2.83908 14.769 2.37997C14.769 1.92085 14.5832 1.48054 14.2524 1.15584L14.1006 1.00694C13.7697 0.682347 13.3209 0.5 12.8529 0.5C12.385 0.5 11.9362 0.682347 11.6053 1.00694L1.38235 11.0371Z"
+                                        stroke="#3B3731" stroke-linecap="round" stroke-linejoin="round" />
+                                </svg>
+                                Edit details
+                            </button>
+                        </div>
+
+                        <div class="detail-item">
+                            <label>Email Address</label>
+                            <p>veve@gmail.com</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <label>Phone Number</label>
+                            <p>+44 00 0000 0000</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <label>Address Line 1</label>
+                            <p>12 King's Road</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <label>City</label>
+                            <p>London</p>
+                        </div>
+
+                        <div class="detail-item">
+                            <label>Post Code</label>
+                            <p>SW3 4JP</p>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="details-grid">
-                    <div class="detail-item">
-                        <label>Full Name</label>
-                        <p>Verity Eve</p>
-                    </div>
-
-                    <div class="edit-action">
-                        <button class="btn-edit-outline">
-                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
-                                <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
-                                <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
-                            </svg>
-                            Edit details
-                        </button>
-                    </div>
-
-                    <div class="detail-item">
-                        <label>Email Address</label>
-                        <p>veve@gmail.com</p>
-                    </div>
-
-                    <div class="detail-item">
-                        <label>Phone Number</label>
-                        <p>+44 00 0000 0000</p>
-                    </div>
-
-                    <div class="detail-item">
-                        <label>Address Line 1</label>
-                        <p>12 King's Road</p>
-                    </div>
-
-                    <div class="detail-item">
-                        <label>City</label>
-                        <p>London</p>
-                    </div>
-
-                    <div class="detail-item">
-                        <label>Post Code</label>
-                        <p>SW3 4JP</p>
-                    </div>
+                <div class="bio-section">
+                    <label>Bio</label>
+                    <p>Hi! I'm Sarah, and I'm a lifelong dog lover based in South London. I have two small dogs who are
+                        very
+                        much part of the family. We're looking for calm, caring groomers who are gentle and patient,
+                        especially
+                        with nervous pups.</p>
                 </div>
-            </div>
-
-            <div class="bio-section">
-                <label>Bio</label>
-                <p>Hi! I'm Sarah, and I'm a lifelong dog lover based in South London. I have two small dogs who are very
-                    much part of the family. We're looking for calm, caring groomers who are gentle and patient,
-                    especially
-                    with nervous pups.</p>
             </div>
         </section>
     </div>

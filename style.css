@@ -154,7 +154,7 @@ body {
 
 .profile {
   margin-top: 2rem;
-  margin-left: 12rem;
+  margin-left: 14rem;
 }
 
 .profile-title {
@@ -176,7 +176,7 @@ body {
 
 .profile-sidebar {
   width: 400px;
-  height: 450px;
+  height: 442px;
   flex: 0 0 320px;
   background: #fff;
   padding: 33px;
@@ -201,12 +201,27 @@ body {
 }
 
 .edit-button {
+  display: none; /* This removes it from the layout */
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
   padding: 4px 23px;
   font-size: 13px;
   cursor: pointer;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Class to show the button */
+.edit-button.show {
+  display: flex; /* Using flex to keep the text and SVG aligned */
+}
+
+/* Optional: Make the dots look clickable */
+.dots-menu {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .avatar-container {
@@ -371,18 +386,21 @@ body {
   gap: 20px;
   padding: 10px 0 12px 25px;
   align-items: center;
-  color: #3b3731;
-  font-family: Lato;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
 }
 
 .card-bottom span {
   display: flex;
   align-items: center;
   gap: 6px;
+}
+
+.card-bottom span p {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .status-confirmed {
@@ -589,14 +607,34 @@ body {
 
 /* Container Card */
 .profile-details-card {
-  background: #f9f9f9; /* Light grey background from image */
-  border-radius: 12px;
+  background: #fafafa; /* Light grey background from image */
+  border-radius: 15px;
   padding: 40px;
-  width: 1030px;
-  height: 400px;
-  margin: 0 auto;
+  width: 920px;
+  height: 420px;
+  margin: 0 0;
   font-family: "Lato", sans-serif;
   color: #333;
+}
+
+.profile-header {
+  padding-left: 15rem;
+}
+
+.profile-header h3 {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.profile-header .divider {
+  border: none;
+  border-top: 1px solid #d4d4d4;
+  margin: 13px 0 50px 0;
+  width: 80%;
 }
 
 /* Header layout (Avatar + Grid) */
@@ -638,7 +676,24 @@ body {
 }
 
 /* Styling Labels and Text */
-.detail-item label,
+.detail-item label {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.detail-item p {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .bio-section label {
   display: block;
   font-weight: 600;
@@ -647,7 +702,6 @@ body {
   margin-bottom: 5px;
 }
 
-.detail-item p,
 .bio-section p {
   margin: 0;
   font-size: 16px;
@@ -763,7 +817,7 @@ body {
 }
 
 .btn-solid {
-  background: #ffb385; /* Peach/Orange color from design */
+  background: #fbac83; /* Peach/Orange color from design */
   border: none;
   color: white;
 }
@@ -771,7 +825,7 @@ body {
 /* Divider */
 .footer-divider {
   border: none;
-  border-top: 1px solid #d1d1d1;
+  border-top: 2px solid #d1d1d1;
   margin-bottom: 40px;
 }
 
