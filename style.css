@@ -560,7 +560,6 @@ body {
 
 .profile-details-card {
   background: #f8f9fa; /* Light gray background from image */
-  border: 1px solid #e0e0e0;
   border-radius: 12px;
   padding: 30px;
   margin-top: 20px;
@@ -581,31 +580,116 @@ body {
   flex-shrink: 0;
 }
 
-.details-grid {
+.details-completion.details-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns for desktop */
   grid-gap: 20px;
   flex-grow: 1;
 }
 
+/* Container Card */
+.profile-details-card {
+  background: #f9f9f9; /* Light grey background from image */
+  border-radius: 12px;
+  padding: 40px;
+  width: 1030px;
+  height: 400px;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  color: #333;
+}
+
+/* Header layout (Avatar + Grid) */
+.profile-details-header {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+/* Avatar Circle */
+.avatar-placeholder {
+  width: 150px;
+  height: 150px;
+  flex-shrink: 0;
+}
+
+/* The Details Grid */
+/* Ensure the grid has 3 columns to match the design */
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  flex-grow: 1;
+}
+
+/* Force Address Line 1 to take up the full width of the row */
+.detail-item:nth-child(4) {
+  grid-column: 0 / span 3;
+}
+
+/* City and Postcode will naturally fall into the next row */
+.detail-item:nth-child(5) {
+  grid-column: 1;
+}
+
+.detail-item:nth-child(6) {
+  grid-column: 2;
+}
+
+/* Styling Labels and Text */
 .detail-item label,
 .bio-section label {
   display: block;
-  color: #666;
+  font-weight: 600;
   font-size: 14px;
+  color: #555;
   margin-bottom: 5px;
 }
 
 .detail-item p,
 .bio-section p {
-  color: #333;
-  font-weight: 500;
   margin: 0;
+  font-size: 16px;
+  color: #333;
 }
 
+/* Edit Button Styling */
 .edit-action {
   grid-column: 3; /* Places button in the far right column */
   text-align: right;
+}
+
+.btn-edit-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: white;
+  border: 1px solid #333;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.2s;
+}
+
+.btn-edit-outline:hover {
+  background: #f0f0f0;
+}
+
+/* Bio Section at the bottom */
+.bio-section {
+  margin-top: 20px;
+  border-top: 1px solid transparent; /* Keeps spacing consistent */
+}
+
+.bio-section p {
+  line-height: 1.6;
+  max-width: 80%;
+}
+.details-grid .edit-action {
+  grid-column: 3; /* Places button in the far right column */
+  text-align: left;
 }
 
 .btn-edit-outline {
@@ -623,11 +707,17 @@ body {
 .bio-section {
   margin-top: 20px;
   border-top: 1px solid transparent; /* Keeps spacing consistent */
+  padding-left: 12rem;
 }
 
 .bio-section p {
-  line-height: 1.6;
-  max-width: 800px;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 611px;
 }
 
 .site-footer {
