@@ -237,8 +237,7 @@
             <h3>My Profile</h3>
             <hr class="divider">
 
-
-            <div class="profile-details-card">
+            <div id="profile-view" class="profile-details-card">
                 <div class="profile-details-header">
                     <div class="avatar-placeholder">
                         <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -251,13 +250,11 @@
                     <div class="details-grid">
                         <div class="detail-item">
                             <label>Full Name</label>
-                            <p>Verity Eve</p>
+                            <p id="display-name">Verity Eve</p>
                         </div>
-
                         <div class="edit-action">
-                            <button class="btn-edit-outline">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" viewBox="0 0 16 15"
-                                    fill="none">
+                            <button id="edit-btn" class="btn-edit-outline">
+                                <svg width="16" height="15" viewBox="0 0 16 15" fill="none">
                                     <path
                                         d="M10.2059 2.37997L12.8529 4.97712M8.44118 14.5H15.5M1.38235 11.0371L0.5 14.5L4.02941 13.6343L14.2524 3.60409C14.5832 3.2794 14.769 2.83908 14.769 2.37997C14.769 1.92085 14.5832 1.48054 14.2524 1.15584L14.1006 1.00694C13.7697 0.682347 13.3209 0.5 12.8529 0.5C12.385 0.5 11.9362 0.682347 11.6053 1.00694L1.38235 11.0371Z"
                                         stroke="#3B3731" stroke-linecap="round" stroke-linejoin="round" />
@@ -265,41 +262,142 @@
                                 Edit details
                             </button>
                         </div>
-
-                        <div class="detail-item">
-                            <label>Email Address</label>
-                            <p>veve@gmail.com</p>
+                        <div class="detail-item"><label>Email Address</label>
+                            <p id="display-email">veve@gmail.com</p>
                         </div>
-
-                        <div class="detail-item">
-                            <label>Phone Number</label>
-                            <p>+44 00 0000 0000</p>
+                        <div class="detail-item"><label>Phone Number</label>
+                            <p id="display-phone">+44 00 0000 0000</p>
                         </div>
-
-                        <div class="detail-item">
-                            <label>Address Line 1</label>
-                            <p>12 King's Road</p>
+                        <div class="detail-item" style="grid-column: span 3;"><label>Address Line 1</label>
+                            <p id="display-address">12 King's Road</p>
                         </div>
-
-                        <div class="detail-item">
-                            <label>City</label>
-                            <p>London</p>
+                        <div class="detail-item"><label>City</label>
+                            <p id="display-city">London</p>
                         </div>
-
-                        <div class="detail-item">
-                            <label>Post Code</label>
-                            <p>SW3 4JP</p>
+                        <div class="detail-item"><label>Post Code</label>
+                            <p id="display-postcode">SW3 4JP</p>
                         </div>
                     </div>
                 </div>
-
                 <div class="bio-section">
                     <label>Bio</label>
-                    <p>Hi! I'm Sarah, and I'm a lifelong dog lover based in South London. I have two small dogs who are
-                        very
-                        much part of the family. We're looking for calm, caring groomers who are gentle and patient,
-                        especially
-                        with nervous pups.</p>
+                    <p id="display-bio">Hi! I'm Sarah...</p>
+                </div>
+            </div>
+
+            <div id="edit-form-container" class="profile-details-card hidden">
+                <div class="edit-layout">
+                    <div class="avatar-edit">
+                        <div class="avatar-placeholder">
+                            <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="50" cy="50" r="50" fill="#E6E6E6" />
+                                <circle cx="50" cy="40" r="15" fill="white" />
+                                <path d="M20 85C20 70 35 60 50 60C65 60 80 70 80 85" stroke="white" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <button class="btn-edit-outline" style="margin-top: 10px;">📷 Edit photo</button>
+                    </div>
+
+                    <form id="profile-form" class="form-grid">
+                        <div class="form-group full-width">
+                            <label>Full Name</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="fullName" value="Verity Eve">
+                                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                    viewBox="0 0 19 19" fill="none">
+                                    <path
+                                        d="M9.5 0C4.275 0 0 4.275 0 9.5C0 14.725 4.275 19 9.5 19C14.725 19 19 14.725 19 9.5C19 4.275 14.725 0 9.5 0ZM7.6 14.25L2.85 9.5L4.1895 8.1605L7.6 11.5615L14.8105 4.351L16.15 5.7L7.6 14.25Z"
+                                        fill="#C9DDA0" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Email Address</label>
+                            <div class="input-wrapper">
+                                <input type="email" name="email" value="veve@gmail.com">
+                                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                    viewBox="0 0 19 19" fill="none">
+                                    <path
+                                        d="M9.5 0C4.275 0 0 4.275 0 9.5C0 14.725 4.275 19 9.5 19C14.725 19 19 14.725 19 9.5C19 4.275 14.725 0 9.5 0ZM7.6 14.25L2.85 9.5L4.1895 8.1605L7.6 11.5615L14.8105 4.351L16.15 5.7L7.6 14.25Z"
+                                        fill="#C9DDA0" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Phone Number</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="phone" value="+440 0000 0000">
+                                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                    viewBox="0 0 19 19" fill="none">
+                                    <path
+                                        d="M9.5 0C4.275 0 0 4.275 0 9.5C0 14.725 4.275 19 9.5 19C14.725 19 19 14.725 19 9.5C19 4.275 14.725 0 9.5 0ZM7.6 14.25L2.85 9.5L4.1895 8.1605L7.6 11.5615L14.8105 4.351L16.15 5.7L7.6 14.25Z"
+                                        fill="#C9DDA0" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label>Address Line 1</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="address" value="12 King's Road">
+                                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                    viewBox="0 0 19 19" fill="none">
+                                    <path
+                                        d="M9.5 0C4.275 0 0 4.275 0 9.5C0 14.725 4.275 19 9.5 19C14.725 19 19 14.725 19 9.5C19 4.275 14.725 0 9.5 0ZM7.6 14.25L2.85 9.5L4.1895 8.1605L7.6 11.5615L14.8105 4.351L16.15 5.7L7.6 14.25Z"
+                                        fill="#C9DDA0" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="form-group full-width">
+                            <label>Address Line 2</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="address2" placeholder=" ">
+                                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                    viewBox="0 0 19 19" fill="none">
+                                    <path
+                                        d="M9.5 0C4.275 0 0 4.275 0 9.5C0 14.725 4.275 19 9.5 19C14.725 19 19 14.725 19 9.5C19 4.275 14.725 0 9.5 0ZM7.6 14.25L2.85 9.5L4.1895 8.1605L7.6 11.5615L14.8105 4.351L16.15 5.7L7.6 14.25Z"
+                                        fill="#C9DDA0" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>City</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="city" value="London">
+                                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                    viewBox="0 0 19 19" fill="none">
+                                    <path
+                                        d="M9.5 0C4.275 0 0 4.275 0 9.5C0 14.725 4.275 19 9.5 19C14.725 19 19 14.725 19 9.5C19 4.275 14.725 0 9.5 0ZM7.6 14.25L2.85 9.5L4.1895 8.1605L7.6 11.5615L14.8105 4.351L16.15 5.7L7.6 14.25Z"
+                                        fill="#C9DDA0" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Post Code</label>
+                            <div class="input-wrapper">
+                                <input type="text" name="postcode" value="SW3 4JP">
+                                <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                                    viewBox="0 0 19 19" fill="none">
+                                    <path
+                                        d="M9.5 0C4.275 0 0 4.275 0 9.5C0 14.725 4.275 19 9.5 19C14.725 19 19 14.725 19 9.5C19 4.275 14.725 0 9.5 0ZM7.6 14.25L2.85 9.5L4.1895 8.1605L7.6 11.5615L14.8105 4.351L16.15 5.7L7.6 14.25Z"
+                                        fill="#C9DDA0" />
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="form-group full-width">
+                            <label>Bio</label>
+                            <textarea name="bio" rows="4"></textarea>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" id="cancel-btn" class="btn-cancel">Cancel</button>
+                            <button type="submit" class="btn-save">Save</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>

@@ -19,3 +19,31 @@ dotsMenu.addEventListener('click', () => {
     editBtn.classList.toggle('show');
 });
 
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const editBtn = document.getElementById('edit-btn');
+    const cancelBtn = document.getElementById('cancel-btn');
+    const profileView = document.getElementById('profile-view');
+    const editForm = document.getElementById('edit-form-container');
+
+    // Show Form
+    editBtn.addEventListener('click', () => {
+        profileView.classList.add('hidden');
+        editForm.classList.remove('hidden');
+    });
+
+    // Hide Form (Cancel)
+    cancelBtn.addEventListener('click', () => {
+        editForm.classList.add('hidden');
+        profileView.classList.remove('hidden');
+    });
+
+    // Handle Save (Optional)
+    document.getElementById('profile-form').addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Profile Updated!');
+        editForm.classList.add('hidden');
+        profileView.classList.remove('hidden');
+    });
+});
