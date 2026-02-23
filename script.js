@@ -47,3 +47,25 @@ document.addEventListener('DOMContentLoaded', () => {
         profileView.classList.remove('hidden');
     });
 });
+
+const tab = document.querySelectorAll('.tab');
+const profileView = document.getElementById('profile-view');
+const petsView = document.getElementById('pets-view');
+
+tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+        // 1. Remove active class from all tabs
+        tabs.forEach(t => t.classList.remove('active'));
+        // 2. Add active class to clicked tab
+        tab.classList.add('active');
+
+        // 3. Show/Hide content based on tab text
+        if (tab.textContent.trim() === 'My Pets') {
+            profileView.style.display = 'none';
+            petsView.style.display = 'block';
+        } else if (tab.textContent.trim() === 'My Profile') {
+            profileView.style.display = 'block';
+            petsView.style.display = 'none';
+        }
+    });
+});
