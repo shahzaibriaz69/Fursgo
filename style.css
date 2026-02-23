@@ -670,8 +670,24 @@ body {
 
 .pet-info p {
   margin: 8px 0;
-  font-size: 14px;
-  color: #444;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pet-card .btn-edit-outline {
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 2rem;
+  margin-top: 1rem;
 }
 
 .btn-add-another-pet {
@@ -681,7 +697,13 @@ body {
   border-radius: 30px;
   border: 1px solid #ccc;
   background: white;
-  font-weight: bold;
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
   cursor: pointer;
 }
 
