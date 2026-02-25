@@ -1282,7 +1282,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .tabs button {
@@ -1372,11 +1372,19 @@ h2 {
 /* TAG */
 .tag {
   display: inline-block;
-  background: #ffe6cc;
-  color: #ff8a00;
-  padding: 6px 14px;
+  background: #fbac83;
+  padding: 6px 4px;
   border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
   font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 105px;
+  height: 32px;
+  margin-bottom: 2rem;
 }
 
 /* GRID */
@@ -1389,7 +1397,7 @@ h2 {
 
 /* CARD */
 .card {
-  background: #fff;
+  background: #fafafa;
   border-radius: 16px;
   padding: 15px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
@@ -1406,28 +1414,67 @@ h2 {
   border-radius: 12px;
 }
 
+.card-img span {
+  width: 36px;
+  height: 36px;
+  aspect-ratio: 1/1;
+  border-radius: 100px;
+  border: 1px solid #eae8e5;
+  background: #fff;
+}
+
 .delete {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  background: #fff;
-  border-radius: 50%;
-  padding: 6px;
-  font-size: 12px;
+  top: -8px;
+  right: -6px;
+  padding: 10px;
+}
+
+.group-icon {
+  margin: 22px 0;
+  width: 82px;
+  height: 24px;
 }
 
 /* LABELS */
 .labels {
-  margin: 10px 0;
+  margin: 31px 0;
 }
 
 .labels span {
-  background: #ffd9b3;
-  color: #ff7a00;
+  background: #fbac83;
   padding: 5px 10px;
   border-radius: 12px;
-  font-size: 12px;
   margin-right: 5px;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.card-title {
+  margin: 31px 0;
+}
+
+.card-title h3 {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.card-title p {
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* TEXT */
@@ -1440,9 +1487,16 @@ h2 {
 .meta {
   display: flex;
   justify-content: space-between;
-  font-size: 14px;
-  color: #666;
   margin: 8px 0;
+}
+
+.meta-location {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .review {
