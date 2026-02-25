@@ -287,6 +287,8 @@
                 </div>
             </div>
 
+
+
             <div id="edit-form-container" class="profile-details-card hidden">
                 <div class="edit-layout">
                     <div class="avatar-edit">
@@ -598,7 +600,11 @@
 
 
                         <div class="slider-arrow-next">
-                            <span>❯</span>
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11"
+                                    fill="none">
+                                    <path d="M0.5 10.484L5.53426 5.44975L0.58451 0.500005" stroke="#3B3731"
+                                        stroke-linecap="round" stroke-linejoin="round" />
+                                </svg></span>
                         </div>
                     </div>
                 </div>
@@ -607,6 +613,153 @@
             </div>
         </div>
 
+        <section class="favourites">
+
+            <!-- Top Header -->
+            <div class="top-bar">
+                <div class="tabs">
+                    <button class="active">Groomers</button>
+                    <button>Space</button>
+                </div>
+
+                <div class="search-area">
+                    <input type="text" placeholder="Type to search....">
+                    <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        viewBox="0 0 16 16" fill="none">
+                        <path
+                            d="M5.73535 0.5C8.6267 0.500031 10.9707 2.844 10.9707 5.73535C10.9707 7.22006 10.3528 8.55933 9.35938 9.5127C8.41826 10.4158 7.14221 10.9707 5.73535 10.9707C2.844 10.9707 0.500031 8.6267 0.5 5.73535C0.5 2.84398 2.84398 0.5 5.73535 0.5Z"
+                            stroke="#9D9B98" />
+                        <path
+                            d="M14.6466 15.3537C14.8419 15.549 15.1585 15.549 15.3537 15.3537C15.549 15.1585 15.549 14.8419 15.3537 14.6466L15.0002 15.0002L14.6466 15.3537ZM9.70605 9.70605L9.3525 10.0596L14.6466 15.3537L15.0002 15.0002L15.3537 14.6466L10.0596 9.3525L9.70605 9.70605Z"
+                            fill="#9D9B98" />
+                    </svg>
+                </div>
+            </div>
+
+            <div class="feature-section">
+                <div class="feature-heading">
+                    <h2>Favourite Groomers</h2>
+                </div>
+                <div class="filter-section">
+                    <button class="filter">Groomer Venue <svg xmlns="http://www.w3.org/2000/svg" width="13" height="7"
+                            viewBox="0 0 13 7" fill="none">
+                            <path d="M11.9102 0.5L6.15672 6.25344L0.499867 0.596581" stroke="#FBAC83"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></button>
+                    <button class="filter">Sort <svg xmlns="http://www.w3.org/2000/svg" width="13" height="7"
+                            viewBox="0 0 13 7" fill="none">
+                            <path d="M11.9102 0.5L6.15672 6.25344L0.499867 0.596581" stroke="#FBAC83"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></button>
+                </div>
+            </div>
+
+
+
+            <span class="tag">Full Groom ✕</span>
+
+            <!-- Cards -->
+            <div class="groomer-grid">
+
+                <!-- Card 1 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/favourite_card_1.svg" alt="">
+                        <span class="delete">🗑</span>
+                    </div>
+
+                    <div class="labels">
+                        <span>Groomer's Studio</span>
+                    </div>
+
+                    <h3>Sarah W.</h3>
+                    <p class="sub">Sarah's Grooming Studio</p>
+
+                    <div class="meta">
+                        <span>📍 2.5 mi</span>
+                        <span>⭐ 4.3 (20)</span>
+                    </div>
+
+                    <p class="review">
+                        “He came back looking fluffy and smelling amazing.”
+                    </p>
+
+                    <div class="bottom">
+                        <p>From <b>£38</b></p>
+                        <button class="arrow">→</button>
+                    </div>
+
+                    <button class="book">Book Again</button>
+                </div>
+
+
+                <!-- Card 2 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/favourite_card_2.svg" alt="">
+                        <span class="delete">🗑</span>
+                    </div>
+
+                    <div class="labels">
+                        <span>Home Visit</span>
+                        <span>Mobile Station</span>
+                    </div>
+
+                    <h3>Ken T.</h3>
+                    <p class="sub">Ken's Grooming Mobile</p>
+
+                    <div class="meta">
+                        <span>📍 2.5 mi</span>
+                        <span>⭐ 4.3 (20)</span>
+                    </div>
+
+                    <p class="review">
+                        “Thanks for looking after our Nina again.”
+                    </p>
+
+                    <div class="bottom">
+                        <p>From <b>£38</b></p>
+                        <button class="arrow">→</button>
+                    </div>
+
+                    <button class="book">Book Again</button>
+                </div>
+
+
+                <!-- Card 3 -->
+                <div class="card">
+                    <div class="card-img">
+                        <img src="images/favourite_card_3.svg" alt="">
+                        <span class="delete">🗑</span>
+                    </div>
+
+                    <div class="labels">
+                        <span>Salons</span>
+                    </div>
+
+                    <h3>Cathy P.</h3>
+                    <p class="sub">Cathy's Services</p>
+
+                    <div class="meta">
+                        <span>📍 2.5 mi</span>
+                        <span>⭐ 4.3 (20)</span>
+                    </div>
+
+                    <p class="review">
+                        “Hands down the best groomer we've tried.”
+                    </p>
+
+                    <div class="bottom">
+                        <p>From <b>£38</b></p>
+                        <button class="arrow">→</button>
+                    </div>
+
+                    <button class="card-profile">View Profile →</button>
+                </div>
+
+            </div>
+
+        </section>
         <?php include 'footer.php'; ?>
 
 

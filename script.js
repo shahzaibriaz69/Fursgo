@@ -27,19 +27,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const profileView = document.getElementById('profile-view');
     const editForm = document.getElementById('edit-form-container');
 
-    // Show Form
+
     editBtn.addEventListener('click', () => {
         profileView.classList.add('hidden');
         editForm.classList.remove('hidden');
     });
 
-    // Hide Form (Cancel)
+
     cancelBtn.addEventListener('click', () => {
         editForm.classList.add('hidden');
         profileView.classList.remove('hidden');
     });
 
-    // Handle Save (Optional)
+
     document.getElementById('profile-form').addEventListener('submit', (e) => {
         e.preventDefault();
         alert('Profile Updated!');
@@ -54,12 +54,11 @@ const petsView = document.getElementById('pets-view');
 
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
-        // 1. Remove active class from all tabs
+
         tabs.forEach(t => t.classList.remove('active'));
-        // 2. Add active class to clicked tab
+
         tab.classList.add('active');
 
-        // 3. Show/Hide content based on tab text
         if (tab.textContent.trim() === 'My Pets') {
             profileView.style.display = 'none';
             petsView.style.display = 'block';
@@ -69,3 +68,6 @@ tabs.forEach(tab => {
         }
     });
 });
+
+
+
