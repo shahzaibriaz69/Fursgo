@@ -1392,14 +1392,14 @@ h2 {
   margin-top: 25px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 25px;
+  gap: 5rem;
 }
 
 /* CARD */
 .card {
-  background: #fafafa;
+  background: #fff;
   border-radius: 16px;
-  padding: 15px;
+  padding: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
@@ -1487,11 +1487,42 @@ h2 {
 .meta {
   display: flex;
   justify-content: space-between;
-  margin: 8px 0;
+  margin: 20px 0;
 }
 
 .meta-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.meta-location span {
   color: #3b3731;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.meta-rating span {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.meta-rating strong {
+  color: #9d9b98;
   font-family: Lato;
   font-size: 14px;
   font-style: normal;
@@ -1499,9 +1530,17 @@ h2 {
   line-height: normal;
 }
 
+.card-review {
+  width: 246px;
+}
+
 .review {
+  color: #3b3731;
+  font-family: Lato;
   font-size: 14px;
-  color: #555;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   margin: 10px 0;
 }
 
@@ -1511,6 +1550,30 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin: 12px 0;
+}
+
+.bottom p {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.bottom p b {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }
 
 .arrow {
@@ -1528,8 +1591,14 @@ h2 {
   padding: 12px;
   border: none;
   border-radius: 20px;
-  background: #c7d3df;
+  background: #cbdce8;
   color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
   cursor: pointer;
 }
 
@@ -1538,6 +1607,13 @@ h2 {
   padding: 12px;
   border: none;
   border-radius: 20px;
-  background: #cfe3a3;
+  background: #d8e8b7;
   cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
