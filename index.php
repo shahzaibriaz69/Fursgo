@@ -1001,20 +1001,39 @@
                         </div>
                     </div>
 
-
-
-
-                    <h3>Furs & Co. Studio</h3>
-                    <p class="sub">Hosted by Dev É.</p>
-
-                    <div class="meta">
-                        <span>📍 2.5 mi</span>
-                        <span>⭐ 4.3 (20)</span>
+                    <div class="sub-title">
+                        <h3>Furs & Co. Studio</h3>
+                        <p class="sub">Hosted by <strong>Dev É.</strong> </p>
                     </div>
 
-                    <p class="review">
-                        “I rent this space weekly — always clean and ready.”
-                    </p>
+
+
+                    <div class="meta">
+                        <div class="meta-location">
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="10" height="14" viewBox="0 0 10 14"
+                                    fill="none">
+                                    <path
+                                        d="M5 6.65C4.5264 6.65 4.0722 6.46563 3.73731 6.13744C3.40242 5.80925 3.21429 5.36413 3.21429 4.9C3.21429 4.43587 3.40242 3.99075 3.73731 3.66256C4.0722 3.33437 4.5264 3.15 5 3.15C5.4736 3.15 5.9278 3.33437 6.26269 3.66256C6.59758 3.99075 6.78571 4.43587 6.78571 4.9C6.78571 5.12981 6.73953 5.35738 6.64979 5.5697C6.56004 5.78202 6.42851 5.97493 6.26269 6.13744C6.09687 6.29994 5.90002 6.42884 5.68336 6.51679C5.46671 6.60473 5.2345 6.65 5 6.65ZM5 0C3.67392 0 2.40215 0.516248 1.46447 1.43518C0.526784 2.3541 0 3.60044 0 4.9C0 8.575 5 14 5 14C5 14 10 8.575 10 4.9C10 3.60044 9.47322 2.3541 8.53553 1.43518C7.59785 0.516248 6.32608 0 5 0Z"
+                                        fill="#FFC97A" />
+                                </svg> 2.5 mi</span>
+                        </div>
+
+                        <div class="meta-rating">
+
+                            <span><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"
+                                    fill="none">
+                                    <path
+                                        d="M6.12956 0.660476C6.40354 -0.220161 7.59647 -0.220158 7.87045 0.660479L8.89548 3.95519C9.01801 4.34902 9.36942 4.61566 9.76593 4.61566H13.083C13.9696 4.61566 14.3383 5.80055 13.621 6.34481L10.9374 8.38106C10.6166 8.62446 10.4824 9.0559 10.6049 9.44973L11.63 12.7444C11.9039 13.6251 10.9388 14.3574 10.2215 13.8131L7.53797 11.7769C7.21719 11.5335 6.78282 11.5335 6.46204 11.7769L3.77846 13.8131C3.06117 14.3574 2.09607 13.6251 2.37005 12.7444L3.39508 9.44973C3.51761 9.0559 3.38338 8.62446 3.0626 8.38106L0.37903 6.34481C-0.338258 5.80055 0.0303816 4.61566 0.916998 4.61566H4.23408C4.63058 4.61566 4.98199 4.34902 5.10452 3.95519L6.12956 0.660476Z"
+                                        fill="#FFC97A" />
+                                </svg></span>4.3 <strong>(20)</strong>
+                        </div>
+
+                    </div>
+                    <div class="card-review">
+                        <p class="review">
+                            “I rent this space weekly — always clean and ready.”
+                        </p>
+                    </div>
 
                     <div class="features">
                         <span>✔ Grooming Table</span>
@@ -1070,18 +1089,22 @@
                             </svg>
                         </div>
                     </div>
-
-                    <h3>Paws & Bubbles</h3>
-                    <p class="sub">Hosted by Patrick B.</p>
+                    <div class="sub-title">
+                        <h3>Paws & Bubbles</h3>
+                        <p class="sub">Hosted by <strong>Patrick B.</strong> </p>
+                    </div>
 
                     <div class="meta">
                         <span>📍 2.5 mi</span>
                         <span>⭐ 4.3 (20)</span>
                     </div>
 
-                    <p class="review">
-                        “Smooth check-in and secure entry.”
-                    </p>
+                    <div class="card-review">
+                        <p class="review">
+                            “Smooth check-in and secure entry.”
+                        </p>
+                    </div>
+
 
                     <div class="features">
                         <span>✔ Waiting area</span>
@@ -1137,17 +1160,22 @@
                         </div>
                     </div>
 
-                    <h3>The Garden Grooming Spot</h3>
-                    <p class="sub">Hosted by Chloe D.</p>
+                    <div class="sub-title">
+                        <h3>The Garden Grooming Spot</h3>
+                        <p class="sub">Hosted by <strong>Chloe D.</strong> </p>
+                    </div>
+
 
                     <div class="meta">
                         <span>📍 2.5 mi</span>
                         <span>⭐ 4.3 (20)</span>
                     </div>
 
-                    <p class="review">
-                        “This space has become my go-to for weekday clients.”
-                    </p>
+                    <div class="card-review">
+                        <p class="review">
+                            “This space has become my go-to for weekday clients.”
+                        </p>
+                    </div>
 
                     <div class="features">
                         <span>✔ Bath</span>
