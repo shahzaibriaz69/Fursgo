@@ -1438,11 +1438,15 @@ h2 {
 
 /* LABELS */
 .labels {
-  margin: 31px 0;
+  margin: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10rem;
 }
 
 .labels span {
-  background: #fbac83;
+  background: #ffa899;
   padding: 5px 10px;
   border-radius: 12px;
   margin-right: 5px;
@@ -1453,6 +1457,8 @@ h2 {
   font-style: normal;
   font-weight: 500;
   line-height: normal;
+  width: 107px;
+  height: 24px;
 }
 
 .card-title {
