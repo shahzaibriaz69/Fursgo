@@ -1318,6 +1318,56 @@ background: #FFF;">+2</span>
             </div>
 
         </section>
+
+        <section class="reviews-section">
+
+            <h2>Reviews</h2>
+            <hr>
+
+            <!-- STATS -->
+            <div class="review-stats">
+
+                <div class="stat-card">
+                    <p class="stat-title">Average Rating Given</p>
+                    <h3><svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                            <path
+                                d="M10.251 1.39802C10.8393 -0.465986 13.4771 -0.465981 14.0655 1.39802L15.5337 6.04967C15.7964 6.88186 16.5683 7.44767 17.4409 7.44767L22.3128 7.44767C24.2361 7.44767 25.0509 9.89731 23.5106 11.0493L19.4704 14.071C18.7897 14.5801 18.5052 15.4639 18.761 16.2746L20.2806 21.0887C20.8654 22.9416 18.7314 24.456 17.1754 23.2923L13.3561 20.4358C12.6458 19.9046 11.6706 19.9046 10.9603 20.4358L7.14096 23.2923C5.58502 24.456 3.45102 22.9416 4.03585 21.0887L5.55537 16.2746C5.81124 15.4639 5.52672 14.5801 4.84598 14.071L0.805789 11.0493C-0.734458 9.89731 0.080267 7.44767 2.00365 7.44767L6.87548 7.44767C7.74814 7.44767 8.52006 6.88186 8.78273 6.04967L10.251 1.39802Z"
+                                fill="#FFC97A" />
+                        </svg> 4.8 / 5</h3>
+                    <span>Based on 5 reviews</span>
+                </div>
+
+                <div class="stat-card light">
+                    <p class="stat-title">Reviews Written</p>
+                    <h3>💬 5</h3>
+                </div>
+
+            </div>
+
+            <!-- FILTER BAR -->
+            <div class="review-filters">
+
+                <div class="left-filters">
+                    <button class="pill">All</button>
+                    <button class="pill active">Reviews Written</button>
+                    <button class="pill">Reviews Received</button>
+                </div>
+
+                <div class="right-filters">
+                    <input type="text" placeholder="Type to search ...">
+
+                    <button class="filter-btn">Groomer Venue ▾</button>
+                    <button class="filter-btn">Space Venue ▾</button>
+                    <button class="filter-btn">Sort ▾</button>
+                </div>
+
+            </div>
+
+            <h3 class="all-reviews">All Reviews</h3>
+
+            <span class="tag">Garden / Shed ✕</span>
+
+        </section>
         <?php include 'footer.php'; ?>
 
 
