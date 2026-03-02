@@ -1390,6 +1390,98 @@ background: #FFF;">+2</span>
                 <span>Garden / Shed ✕</span>
             </div>
 
+            <div class="reviews-list">
+
+                <!-- REVIEW ITEM -->
+                <div class="review-item">
+
+                    <div class="review-left">
+                        <img src="images/reviews-list-image">
+
+                        <div class="review-user">
+                            <h4>Cathy P.</h4>
+                            <p>Sarah's Grooming Studio</p>
+
+                            <div class="review-meta">
+                                <span>📍 2.5 mi</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-content">
+
+                        <div class="review-top">
+                            <div class="stars">⭐⭐⭐⭐☆</div>
+                            <span class="date">25/02/2025</span>
+                            <span class="badge">Reviews Written</span>
+                        </div>
+
+                        <p class="review-text">
+                            I booked this groomer through Fursgo for my anxious little cockapoo
+                            and honestly couldn’t be happier. They took the time to let him
+                            settle and never rushed him...
+                        </p>
+
+                        <div class="review-tags">
+                            <span>Home Visit</span>
+                            <span>Mobile Station</span>
+                        </div>
+
+                    </div>
+
+                    <div class="review-menu">
+                        ⋯
+                        <div class="menu-dropdown">
+                            <button>Edit ✏</button>
+                            <button>Remove 🗑</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- REVIEW ITEM -->
+                <div class="review-item">
+
+                    <div class="review-left">
+                        <img src="images/reviews-list-image">
+
+                        <div class="review-user">
+                            <h4>Paws & Bubbles</h4>
+                            <p>Hosted by Patrick B.</p>
+                            <div class="review-meta">
+                                <span>📍 2.5 mi</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review-content">
+
+                        <div class="review-top">
+                            <div class="stars">⭐⭐⭐⭐☆</div>
+                            <span class="date">25/02/2025</span>
+                            <span class="badge">Reviews Written</span>
+                        </div>
+
+                        <p class="review-text">
+                            This grooming space was perfect — bright, clean, and clearly
+                            designed with pets in mind. Everything felt organised and hygienic.
+                        </p>
+
+                        <div class="review-tags">
+                            <span>Garden / Shed</span>
+                        </div>
+
+                    </div>
+
+                    <div class="review-menu">⋯</div>
+
+                </div>
+
+            </div>
+
+            <button class="load-more">Load More</button>
+
 
         </section>
         <?php include 'footer.php'; ?>
