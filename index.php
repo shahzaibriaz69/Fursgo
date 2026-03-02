@@ -1362,17 +1362,34 @@ background: #FFF;">+2</span>
 
                 <div class="right-filters">
                     <input type="text" placeholder="Type to search ...">
-
-                    <button class="filter-btn">Groomer Venue ▾</button>
-                    <button class="filter-btn">Space Venue ▾</button>
-                    <button class="filter-btn">Sort ▾</button>
                 </div>
 
             </div>
+            <div class="all-reviews">
+                <h3>All Reviews</h3>
+                <div class="reviews-filter-btn">
+                    <button class="filter-btn">Groomer Venue <svg xmlns="http://www.w3.org/2000/svg" width="13"
+                            height="7" viewBox="0 0 13 7" fill="none">
+                            <path d="M11.9102 0.5L6.15672 6.25344L0.499867 0.596581" stroke="#FBAC83"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></button>
+                    <button class="filter-btn">Space Venue <svg xmlns="http://www.w3.org/2000/svg" width="13" height="7"
+                            viewBox="0 0 13 7" fill="none">
+                            <path d="M11.9102 0.5L6.15672 6.25344L0.499867 0.596581" stroke="#FBAC83"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></button>
+                    <button class="filter-btn">Sort <svg xmlns="http://www.w3.org/2000/svg" width="13" height="7"
+                            viewBox="0 0 13 7" fill="none">
+                            <path d="M11.9102 0.5L6.15672 6.25344L0.499867 0.596581" stroke="#FBAC83"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></button>
+                </div>
+            </div>
 
-            <h3 class="all-reviews">All Reviews</h3>
+            <div class="reviews-tag">
+                <span>Garden / Shed ✕</span>
+            </div>
 
-            <span class="tag">Garden / Shed ✕</span>
 
         </section>
         <?php include 'footer.php'; ?>

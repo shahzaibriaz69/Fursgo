@@ -263,6 +263,7 @@ body {
 
 .bookings-content {
   flex: 1;
+  margin-top: -1.3rem;
 }
 
 .section-title {
@@ -1902,7 +1903,7 @@ h2 {
 }
 
 .pill.active {
-  background: #f4b46a;
+  background: #ffc97a;
   color: #fff;
   border: none;
 }
@@ -1912,26 +1913,34 @@ h2 {
   display: flex;
   gap: 10px;
   align-items: center;
+  justify-content: space-between;
 }
 
 .right-filters input {
   padding: 10px 15px;
   border-radius: 10px;
   border: 1px solid #ddd;
-  width: 320px;
+  width: 380px;
 }
 
 .filter-btn {
-  border: 1px solid #f4b46a;
+  border: 1px solid #fbac83;
   background: transparent;
-  padding: 10px 14px;
+  padding: 7px 16px;
   border-radius: 20px;
   cursor: pointer;
-  color: #f4b46a;
+  color: #fbac83;
 }
 
 /* TITLE */
+
 .all-reviews {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.all-reviews h3 {
   margin-top: 10px;
   color: #3b3731;
   font-family: "Playfair Display";
@@ -1939,4 +1948,25 @@ h2 {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+}
+
+.reviews-tag {
+  margin-top: 1.5rem;
+}
+
+.reviews-tag span {
+  display: inline-block;
+  background: #fbac83;
+  padding: 6px 0px;
+  border-radius: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 127px;
+  height: 32px;
+  margin-bottom: 2rem;
 }
