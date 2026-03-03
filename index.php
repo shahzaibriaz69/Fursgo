@@ -1951,7 +1951,72 @@ background: #FFF;">+2</span>
 
             </section>
 
+            <section class="rewards-container">
+                <div class="reward-heading">
+                    <h3>Rewards</h3>
+                    <hr class="divider">
+                </div>
+                <div class="sub-title">
+                    <h2>Rewards & Referrals</h2>
+                    <p class="sub-grahp">Invite friends to Fursgo and earn rewards when they make their first booking.
+                    </p>
+                </div>
 
+
+                <div class="balance-cards">
+                    <div class="card current">
+                        <span class="amount">£24.60</span>
+                        <span class="label">Current Balance</span>
+                    </div>
+                    <div class="card redeemed">
+                        <span class="amount">£26.40</span>
+                        <span class="label">Redeemed Rewards</span>
+                    </div>
+                </div>
+
+                <div class="referral-grid">
+                    <div class="input-section">
+                        <label>Your referral code</label>
+                        <div class="copy-box">
+                            <input type="text" value="FURSGO-9X3P" readonly>
+                            <button>Copy</button>
+                        </div>
+
+                        <label>Share your referral link</label>
+                        <div class="copy-box">
+                            <input type="text" value="fursgo.com/ref/FURSGO-9X3P" readonly>
+                            <button>Copy</button>
+                        </div>
+                    </div>
+
+                    <div class="promo-section">
+                        <p><strong>You get £10 credit</strong></p>
+                        <p>Your friend gets £5 off their first booking</p>
+                        <div class="social-icons">
+                            <span class="icon fb">f</span>
+                            <span class="icon x">X</span>
+                            <span class="icon wa">w</span>
+                            <span class="icon tg">t</span>
+                            <span class="icon in">in</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="steps-container">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <p>Share your referral link</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <p>Your friend signs up and books</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <p>You both earn rewards</p>
+                    </div>
+                </div>
+            </section>
 
             <?php include 'footer.php'; ?>
 

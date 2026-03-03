@@ -2191,3 +2191,142 @@ h2 {
     transform: translateY(0);
   }
 }
+
+.rewards-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.reward-heading h3 {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.sub-title h2 {
+  color: #3b3731;
+  font-family: "Playfair Display";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+.sub-grahp {
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+/* Cards Styling */
+.balance-cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.card {
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  min-width: 180px;
+}
+
+.current {
+  background-color: #f5f9ed;
+}
+.redeemed {
+  background-color: #f2f6f9;
+}
+
+.amount {
+  display: block;
+  font-size: 28px;
+  font-weight: bold;
+  color: #222;
+}
+.label {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Referral Grid */
+.referral-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin: 15px 0 5px;
+}
+
+.copy-box {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.copy-box input {
+  border: none;
+  padding: 12px;
+  flex-grow: 1;
+  background: #fafafa;
+}
+
+.copy-box button {
+  background: #d4e3b5;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Icons */
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.icon {
+  width: 35px;
+  height: 35px;
+  background: #007bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* Steps */
+.steps-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding-top: 40px;
+}
+
+.step-num {
+  background: #ffe0b2;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 10px;
+}
