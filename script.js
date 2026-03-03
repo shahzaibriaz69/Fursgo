@@ -3,10 +3,10 @@ const tabs = document.querySelectorAll('.tab');
 
 tabs.forEach(tab => {
     tab.addEventListener('click', () => {
-        // 1. Remove 'active' class from whichever tab currently has it
+
         document.querySelector('.tab.active').classList.remove('active');
 
-        // 2. Add 'active' class to the clicked tab
+
         tab.classList.add('active');
     });
 });
@@ -15,7 +15,7 @@ const dotsMenu = document.querySelector('.dots-menu');
 const editBtn = document.querySelector('.edit-button');
 
 dotsMenu.addEventListener('click', () => {
-    // .toggle adds the class if it's missing, and removes it if it's there
+
     editBtn.classList.toggle('show');
 });
 
@@ -69,23 +69,22 @@ tabs.forEach(tab => {
     });
 });
 
+
 const reviewButtons = document.querySelectorAll(".pill");
 const writtenReviews = document.getElementById("written-reviews");
 const receivedReviews = document.getElementById("received-reviews");
 
 reviewButtons.forEach(button => {
-
     button.addEventListener("click", () => {
 
-        // remove active class from buttons
         reviewButtons.forEach(btn => btn.classList.remove("active"));
         button.classList.add("active");
 
         const type = button.getAttribute("data-review");
 
-        // hide both first
         writtenReviews.classList.remove("active");
         receivedReviews.classList.remove("active");
+
 
         if (type === "written") {
             writtenReviews.classList.add("active");
@@ -97,8 +96,27 @@ reviewButtons.forEach(button => {
             writtenReviews.classList.add("active");
             receivedReviews.classList.add("active");
         }
-
     });
-
 });
 
+document.querySelector('.pill[data-review="written"]').click();
+
+function showSection(evt, sectionId) {
+    // 1. Pehle dono sections ko chupa do (Hide)
+    var contents = document.getElementsByClassName("tab-content");
+    for (var i = 0; i < contents.length; i++) {
+        contents[i].style.display = "none";
+    }
+
+    // 2. Button se 'active' styling hata do
+    var links = document.getElementsByClassName("tab-link");
+    for (var i = 0; i < links.length; i++) {
+        links[i].classList.remove("active");
+    }
+
+    // 3. Jo section click hua hai sirf usay dikhao
+    document.getElementById(sectionId).style.display = "block";
+
+    // 4. Clicked button ko 'active' class do
+    evt.currentTarget.classList.add("active");
+}

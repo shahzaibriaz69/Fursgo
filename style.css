@@ -2168,3 +2168,26 @@ h2 {
   font-weight: 600;
   line-height: normal;
 }
+
+/* Jo tab select hoga uska color change ho jaye ga */
+.tab-link.active {
+  border-bottom: 2px solid #ffc97a; /* Neeche line aa jayegi */
+  color: #ffc97a;
+  font-weight: bold;
+}
+
+/* Sections ke switch hone par halka sa fade effect */
+.tab-content {
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
