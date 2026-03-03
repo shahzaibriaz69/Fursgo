@@ -69,5 +69,36 @@ tabs.forEach(tab => {
     });
 });
 
+const reviewButtons = document.querySelectorAll(".pill");
+const writtenReviews = document.getElementById("written-reviews");
+const receivedReviews = document.getElementById("received-reviews");
 
+reviewButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+        // remove active class from buttons
+        reviewButtons.forEach(btn => btn.classList.remove("active"));
+        button.classList.add("active");
+
+        const type = button.getAttribute("data-review");
+
+        // hide both first
+        writtenReviews.classList.remove("active");
+        receivedReviews.classList.remove("active");
+
+        if (type === "written") {
+            writtenReviews.classList.add("active");
+        }
+        else if (type === "received") {
+            receivedReviews.classList.add("active");
+        }
+        else if (type === "all") {
+            writtenReviews.classList.add("active");
+            receivedReviews.classList.add("active");
+        }
+
+    });
+
+});
 
