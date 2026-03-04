@@ -1255,7 +1255,7 @@ body {
 }
 
 .favourites {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -1378,8 +1378,9 @@ h2 {
 .groomer-grid {
   margin-top: 25px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+  gap: 3rem;
+  justify-content: center;
 }
 
 /* CARD */
@@ -1388,6 +1389,9 @@ h2 {
   border-radius: 16px;
   padding: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 30px;
+  border-radius: 12px;
+  width: 295px;
 }
 
 .card-img {
@@ -1694,8 +1698,8 @@ h2 {
 .spaces-grid {
   margin-top: 25px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+  gap: 3rem;
 }
 
 /* CARD */
@@ -1743,7 +1747,7 @@ h2 {
 }
 
 .favourite-spaces {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -2224,13 +2228,6 @@ h2 {
   margin-bottom: 40px;
 }
 
-.card {
-  padding: 30px;
-  border-radius: 12px;
-  text-align: center;
-  min-width: 180px;
-}
-
 .current {
   background-color: #f5f9ed;
 }
@@ -2407,26 +2404,6 @@ h2 {
   z-index: -1;
   opacity: 0.7;
 }
-
-/* Colors for Glows */
-.color-pink svg path {
-  fill: #ffa899;
-}
-
-.color-blue svg path {
-  fill: #a0e9ff;
-}
-
-/* .color-green svg path {
-  fill: #b9ffb0;
-  position: absolute;
-  top: 50%;
-  left: -18%;
-  transform: translate(-50%, -50%);
-  width: 143.69px;
-  z-index: -1;
-  opacity: 0.7;
-} */
 
 .main-icon svg {
   width: 70px;

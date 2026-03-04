@@ -2204,13 +2204,13 @@ background: #FFF;">+2</span>
 
                     <div class="step-item">
                         <div class="icon-container">
-                            <div class="glow-bg color-green"></div>
+                            <div class="glow-bg zzzz"></div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="344" height="346" viewBox="0 0 344 346"
                                 fill="none">
                                 <g filter="url(#filter0_f_55_949)">
                                     <path
                                         d="M233.723 135.946C227.632 123.702 219.682 115.365 211.93 109.243C205.84 104.791 187.21 96.3762 157.31 101.719C137.93 107.841 123.533 117.858 114.12 131.772C104.707 145.128 100 159.876 100 176.016C100 197.721 106.645 214.695 119.934 226.939C133.777 239.182 152.049 245.304 174.752 245.304C195.239 245.304 211.851 238.347 224.586 224.434C237.322 210.521 243.69 194.938 243.69 177.685C243.69 161.546 240.367 147.633 233.723 135.946Z"
-                                        fill="#D8E8B7" fill-opacity="0.5" />
+                                        fill="red" fill-opacity="0.5" />
                                 </g>
                                 <defs>
                                     <filter id="filter0_f_55_949" x="0" y="0" width="343.689" height="345.305"
