@@ -2249,13 +2249,26 @@ h2 {
 
 .amount {
   display: block;
-  font-size: 28px;
-  font-weight: bold;
-  color: #222;
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.label {
-  font-size: 14px;
-  color: #666;
+.card-label {
+  display: inline-block;
+  padding: 5px 12px;
+  border-radius: 14px;
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px 0;
 }
 
 /* Referral Grid */
@@ -2266,24 +2279,26 @@ h2 {
   margin-bottom: 50px;
 }
 
-label {
+.referral-grid label {
   display: block;
   font-size: 14px;
   margin: 15px 0 5px;
 }
 
-.copy-box {
+.referral-grid .copy-box {
   display: flex;
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
 }
 
-.copy-box input {
+.referral-grid .copy-box input {
   border: none;
   padding: 12px;
   flex-grow: 1;
   background: #fafafa;
+  width: 609px;
+  height: 48px;
 }
 
 .copy-box button {
@@ -2294,6 +2309,33 @@ label {
   font-weight: bold;
 }
 
+.promo {
+  margin-top: 2.3rem;
+}
+
+.promo p strong {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.promo p {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.promo-text {
+  margin-right: 7rem;
+  margin-top: 1rem;
+}
+
 /* Icons */
 .social-icons {
   display: flex;
@@ -2301,7 +2343,7 @@ label {
   margin-top: 15px;
 }
 
-.icon {
+/* .icon {
   width: 35px;
   height: 35px;
   background: #007bff;
@@ -2311,15 +2353,16 @@ label {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-}
+} */
 
 /* Steps */
-.steps-container {
+/* .steps-container {
   display: flex;
   justify-content: space-between;
   text-align: center;
   border-top: 1px solid #eee;
   padding-top: 40px;
+ 
 }
 
 .step-num {
@@ -2329,4 +2372,128 @@ label {
   border-radius: 50%;
   display: inline-block;
   margin-bottom: 10px;
+} */
+
+.referral-section {
+  padding: 80px 20px;
+}
+
+.steps-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.step-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  position: relative;
+  z-index: 2;
+}
+
+.icon-container {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.glow-bg {
+  position: absolute;
+  top: 50%;
+  left: -18%;
+  transform: translate(-50%, -50%);
+  width: 143.69px;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+/* Colors for Glows */
+.color-pink svg path {
+  fill: #ffa899;
+}
+
+.color-blue svg path {
+  fill: #a0e9ff;
+}
+
+/* .color-green svg path {
+  fill: #b9ffb0;
+  position: absolute;
+  top: 50%;
+  left: -18%;
+  transform: translate(-50%, -50%);
+  width: 143.69px;
+  z-index: -1;
+  opacity: 0.7;
+} */
+
+.main-icon svg {
+  width: 70px;
+  height: auto;
+}
+
+.step-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.number {
+  background: #ffd79b;
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.step-text p {
+  color: #000;
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+}
+
+/* Connectors Spacing */
+.connector {
+  margin-top: 60px;
+  width: 120px;
+}
+
+.curve-down {
+  transform: translateY(10px);
+}
+.curve-up {
+  transform: translateY(-10px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .steps-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  .connector {
+    display: none; /* Mobile par lines remove kar dein */
+  }
 }
