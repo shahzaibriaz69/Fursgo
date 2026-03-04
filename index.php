@@ -233,7 +233,7 @@
             <button class="tab">Rewards</button>
         </nav>
 
-        <section class="profile-header">
+        <section id="profile-section" class="profile-header">
             <h3>My Profile</h3>
             <hr class="divider">
 
@@ -415,7 +415,7 @@
             </div>
         </section>
 
-        <div id="pets-view" class="tap-details-card" style="display: none;">
+        <div id="pets-view" class="tap-details-card hidden">
             <div class="pets-header">
                 <h3 class="section-title">My Pets</h3>
                 <hr class="divider">
@@ -614,7 +614,7 @@
         </div>
 
         <section id="groomers-sec" class="tab-content favourites">
-            <section class="favourites">
+            <section id="favourites-section" class="favourites hidden">
                 <div class="favourite-title">
                     <h2>Favourites</h2>
                     <hr class="divider">
@@ -1365,7 +1365,7 @@ background: #FFF;">+2</span>
 
         </section>
 
-        <section class="reviews-section">
+        <section id="reviews-section" class="reviews-section hidden">
 
             <h2>Reviews</h2>
             <hr>
@@ -1984,7 +1984,7 @@ background: #FFF;">+2</span>
 
         </section>
 
-        <section class="rewards-container">
+        <section id="rewards-section" class="rewards-container hidden">
             <div class="reward-heading">
                 <h3>Rewards</h3>
                 <hr class="divider">
@@ -2252,7 +2252,7 @@ background: #FFF;">+2</span>
             </div>
         </section>
 
-            <?php include 'footer.php'; ?>
+        <?php include 'footer.php'; ?>
 
 
         <script src="script.js"></script>

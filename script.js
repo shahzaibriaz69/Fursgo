@@ -1,30 +1,53 @@
 
-// Handle tab switching - wait for DOM to be ready
+// Handle primary profile tabs (profile, pets, favourites, reviews, rewards)
 document.addEventListener('DOMContentLoaded', () => {
     const tabs = document.querySelectorAll('.tab');
-    const profileView = document.getElementById('profile-view');
-    const petsView = document.getElementById('pets-view');
 
-    // Set first tab as active by default
-    if (tabs.length > 0) {
-        tabs[0].classList.add('active');
+    // map the text value to the corresponding section element
+    const sections = {
+        'My Profile': document.getElementById('profile-section'),
+        'My Pets': document.getElementById('pets-view'),           // already used elsewhere
+        'Favourites': document.getElementById('favourites-section'),
+        'Reviews': document.getElementById('reviews-section'),
+        'Rewards': document.getElementById('rewards-section')
+    };
+
+    // hide all sections initially then show profile section
+    Object.values(sections).forEach(sec => {
+        if (sec) {
+            sec.classList.add('hidden');
+            sec.style.display = 'none';
+        }
+    });
+    if (sections['My Profile']) {
+        sections['My Profile'].classList.remove('hidden');
+        sections['My Profile'].style.display = 'block';
     }
+
+    // make sure a reasonable tab is active by default
+    tabs.forEach(t => t.classList.remove('active'));
+    const defaultTab = Array.from(tabs).find(t => t.textContent.trim() === 'My Profile') || tabs[0];
+    if (defaultTab) defaultTab.classList.add('active');
 
     tabs.forEach(tab => {
         tab.addEventListener('click', () => {
-            // Remove active class from all tabs
+            // reset all tab state
             tabs.forEach(t => t.classList.remove('active'));
-
-            // Add active class to clicked tab
             tab.classList.add('active');
 
-            // Handle content switching
-            if (tab.textContent.trim() === 'My Pets') {
-                profileView.style.display = 'none';
-                petsView.style.display = 'block';
-            } else if (tab.textContent.trim() === 'My Profile') {
-                profileView.style.display = 'block';
-                petsView.style.display = 'none';
+            // hide every section
+            Object.values(sections).forEach(sec => {
+                if (sec) {
+                    sec.classList.add('hidden');
+                    sec.style.display = 'none';
+                }
+            });
+
+            const label = tab.textContent.trim();
+            const target = sections[label];
+            if (target) {
+                target.classList.remove('hidden');
+                target.style.display = 'block';
             }
         });
     });
