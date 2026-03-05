@@ -76,23 +76,88 @@
 
     <section class="all-bookings booking-container">
         <div class="bookings-header">
-            <h1 class="title">All Bookings</h1>
+            <div class="title">
+                <h1>All Bookings</h1>
+            </div>
+
 
             <div class="actions">
                 <button class="btn btn-filled">
-                    2 Feb - 4 March <span class="btn-arrow">▼</span>
+                    2 Feb - 4 March <span class="btn-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="13"
+                            height="7" viewBox="0 0 13 7" fill="none">
+                            <path d="M11.9102 0.5L6.15672 6.25344L0.499867 0.596581" stroke="white"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></span>
                 </button>
                 <button class="btn btn-outline">
-                    Sort <span class="btn-arrow">▼</span>
+                    Sort <span class="btn-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="7"
+                            viewBox="0 0 13 7" fill="none">
+                            <path d="M11.9102 0.5L6.15672 6.25344L0.499867 0.596581" stroke="#FBAC83"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg></span>
                 </button>
             </div>
         </div>
 
         <div class="chips-container">
-            <div class="chip">Most Recent <span class="close">✕</span></div>
-            <div class="chip">2 Feb - 4 Mar <span class="close">✕</span></div>
+            <div class="chip">Most Recent <span class="close"><svg xmlns="http://www.w3.org/2000/svg" width="9"
+                        height="9" viewBox="0 0 9 9" fill="none">
+                        <path d="M0.5 7.57L7.572 0.5M0.5 0.5L7.572 7.57" stroke="#FBAC83" stroke-linecap="round" />
+                    </svg></span></div>
+            <div class="chip">2 Feb - 4 Mar <span class="close"><svg xmlns="http://www.w3.org/2000/svg" width="9"
+                        height="9" viewBox="0 0 9 9" fill="none">
+                        <path d="M0.5 7.57L7.572 0.5M0.5 0.5L7.572 7.57" stroke="#FBAC83" stroke-linecap="round" />
+                    </svg></span></div>
         </div>
     </section>
+
+    <div class="upcoming-section booking-container">
+        <h2 class="section-title">Upcoming Bookings</h2>
+
+        <div class="bookings-cards">
+            <div class="cards-header">
+                <div class="header-left">
+                    <span class="status-badge">Confirmed</span>
+                    <span class="studio-name">Sarah’s Grooming Studio - <span class="host">Sarah W.</span></span>
+                </div>
+                <div class="booking-ref">Booking reference: FG-10294</div>
+            </div>
+
+            <div class="card-body">
+                <div class="profile-section">
+                    <img src="https://via.placeholder.com/80" alt="Groomer" class="groomer-img">
+                    <div class="service-type">Home Visits</div>
+                </div>
+
+                <div class="details-grids">
+                    <div class="details-item">
+                        <p class="label">Service</p>
+                        <p class="value">Full Groom</p>
+                    </div>
+                    <div class="details-item">
+                        <p class="label">Date</p>
+                        <p class="value">18/12/2025</p>
+                    </div>
+                    <div class="details-item">
+                        <p class="label">Time</p>
+                        <p class="value">14:30 - 15:30</p>
+                    </div>
+                    <div class="details-item">
+                        <p class="label">Location</p>
+                        <p class="value">At your home</p>
+                    </div>
+                </div>
+
+                <div class="pet-and-actions">
+                    <img src="https://via.placeholder.com/40" alt="Pet" class="pet-img">
+                    <div class="action-btns">
+                        <button class="circle-btn arrow-btn">→</button>
+                        <button class="circle-btn chat-btn">💬</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="script.js"></script>
