@@ -2707,10 +2707,11 @@ body {
 
 .bookings-cards {
   border: 1px solid #d8e8b7;
-  background: #f5f9ed;
   border-radius: 15px;
   margin-bottom: 20px;
   overflow: hidden;
+  width: 820px;
+  height: 223px;
 }
 
 .cards-header {
@@ -2781,14 +2782,19 @@ body {
   object-fit: cover;
 }
 .service-type {
-  background: #ffccaa;
+  background: #ffc97a;
   color: #fff;
-  font-size: 11px;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   padding: 4px 10px;
   border-radius: 10px;
   position: absolute;
-  top: -5px;
-  right: -80px;
+  top: -10px;
+  right: -100px;
 }
 
 /* Grid for Service, Date, Time, Location */
@@ -2798,6 +2804,11 @@ body {
   flex-grow: 1;
 }
 
+.details-item {
+  padding: 0 10px; /* Left aur Right side par space */
+  position: relative;
+  border-left: 1.5px solid #d4d4d4; /* Yeh hai woh vertical line | */
+}
 .label {
   color: #888;
   font-size: 12px;
@@ -2825,11 +2836,11 @@ body {
 .action-btns {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 .circle-btn {
-  width: 35px;
-  height: 35px;
+  width: 48px;
+  height: 50px;
   border-radius: 50%;
   border: none;
   cursor: pointer;
