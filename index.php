@@ -72,9 +72,30 @@
 
         </div>
 
+    </div>
+
+    <section class="all-bookings booking-container">
+        <div class="bookings-header">
+            <h1 class="title">All Bookings</h1>
+
+            <div class="actions">
+                <button class="btn btn-filled">
+                    2 Feb - 4 March <span class="btn-arrow">▼</span>
+                </button>
+                <button class="btn btn-outline">
+                    Sort <span class="btn-arrow">▼</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="chips-container">
+            <div class="chip">Most Recent <span class="close">✕</span></div>
+            <div class="chip">2 Feb - 4 Mar <span class="close">✕</span></div>
+        </div>
+    </section>
 
 
-        <script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

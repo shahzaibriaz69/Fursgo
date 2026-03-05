@@ -2588,3 +2588,132 @@ body {
   color: white;
   border: none;
 }
+
+/* .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+} */
+
+/* Header & Buttons */
+.bookings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn {
+  padding: 8px 18px;
+  border-radius: 25px;
+  font-size: 14px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: 0.3s;
+}
+
+.btn-filled {
+  background-color: #ffccaa; /* Peach/Orange light color */
+  border: none;
+  color: #a05a2c;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #ffccaa;
+  color: #d37a3d;
+}
+
+.btn-arrow {
+  font-size: 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Filter Chips */
+.chips-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.chip {
+  background-color: #fff5ee;
+  border: 1px solid #ffe4d1;
+  color: #d37a3d;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.close {
+  font-size: 11px;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+/* Calendar Box */
+.calendar-dropdown {
+  float: right; /* To keep it on the right side */
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.month-selector {
+  display: flex;
+  gap: 5px;
+}
+
+.month-box {
+  padding: 5px 10px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  font-size: 13px;
+  color: #888;
+}
+
+.nav-arrows {
+  display: flex;
+  gap: 5px;
+}
+
+.nav-btn {
+  background: white;
+  border: 1px solid #eee;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+}
