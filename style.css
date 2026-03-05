@@ -2465,3 +2465,126 @@ h2 {
     display: none; /* Mobile par lines remove kar dein */
   }
 }
+
+/* ======= Booking Page ======= */
+
+.booking-container {
+  width: 1050px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.booking-title {
+  text-align: center;
+  background: #f8f8f8;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Cards */
+
+.booking-stats {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.booking-card {
+  width: 190px;
+  height: 150px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 52px;
+}
+
+.booking-card h3 {
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.booking-card p {
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.active-bookings {
+  background: #f5f9ed;
+}
+
+.total-bookings {
+  background: #f2f6f9;
+}
+
+.total-spend {
+  background: #feeae0;
+}
+
+/* Filters */
+
+body {
+  background: #fdfcf8;
+}
+
+.booking-filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.booking-filters .booking-tabs {
+  display: flex;
+  gap: 10px;
+}
+
+.booking-filters .tabs .tab {
+  border: none;
+}
+
+.search-container {
+  position: relative;
+  width: 405px;
+}
+
+.search-container input {
+  width: 100%;
+  height: 48px;
+  padding: 10px 45px 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  outline: none;
+  color: #333;
+}
+
+.search-container input::placeholder {
+  color: #ccc;
+}
+
+.search-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 18px;
+  pointer-events: none;
+}
+
+.booking-tab.active {
+  background: #ffb085;
+  color: white;
+  border: none;
+}
