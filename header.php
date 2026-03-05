@@ -2,12 +2,12 @@
 <header class="navbar">
     <div class="container">
 
-        <!-- Logo -->
+
         <div class="logo">
             <a href="index.php"><img src="images/Logo_image.svg" alt=""></a>
         </div>
 
-        <!-- Navigation Menu -->
+
         <nav class="nav-menu">
             <ul>
                 <li><a href="#" class="active">How it works</a></li>
@@ -17,7 +17,7 @@
             </ul>
         </nav>
 
-        <!-- Icons -->
+
         <div class="nav-icons">
             <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="144" height="23" viewBox="0 0 144 23"
                     fill="none">
