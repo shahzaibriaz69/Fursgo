@@ -155,3 +155,17 @@ function showSection(evt, sectionId) {
 }
 
 
+document.getElementById('dateToggleBtn').addEventListener('click', function (e) {
+    e.stopPropagation();
+    const card = document.getElementById('calendarCard');
+    card.classList.toggle('active');
+});
+
+// Kahin bhi bahar click karne se calendar band ho jaye
+document.addEventListener('click', function (e) {
+    const card = document.getElementById('calendarCard');
+    const btn = document.getElementById('dateToggleBtn');
+    if (!btn.contains(e.target) && !card.contains(e.target)) {
+        card.classList.remove('active');
+    }
+});

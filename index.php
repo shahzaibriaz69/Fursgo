@@ -112,7 +112,11 @@
     </section>
 
     <div class="upcoming-section booking-container">
-        <h2 class="section-title">Upcoming Bookings</h2>
+        <div class="upcoming-section-title">
+            <h2>Upcoming Bookings</h2>
+            <hr>
+        </div>
+
 
         <div class="bookings-cards">
             <div class="cards-header">
@@ -125,7 +129,7 @@
 
             <div class="card-body">
                 <div class="profile-section">
-                    <img src="https://via.placeholder.com/80" alt="Groomer" class="groomer-img">
+                    <img src="images/card_image_2.png" alt="Groomer" class="groomer-img">
                     <div class="service-type">Home Visits</div>
                 </div>
 
