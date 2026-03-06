@@ -2696,7 +2696,7 @@ body {
   margin-bottom: 50px;
 }
 
-.section-title h2 {
+.upcoming-section-title h2 {
   color: #3b3731;
   font-family: Lato;
   font-size: 20px;
@@ -2767,7 +2767,7 @@ body {
 .cards-header {
   display: flex;
   justify-content: space-between;
-  padding: 12px 20px;
+  padding: 20px 20px;
   border-bottom: 1px solid #e0eed4;
   align-items: center;
   background: #f5f9ed;
@@ -2777,7 +2777,7 @@ body {
 .cards-header-light {
   display: flex;
   justify-content: space-between;
-  padding: 12px 20px;
+  padding: 20px 20px;
   border-bottom: 1px solid #f8f8f8;
   align-items: center;
   background: #efefef;
