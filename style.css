@@ -3022,9 +3022,9 @@ body {
 }
 
 .review-container {
-  background: white;
-  width: 100%;
-  max-width: 700px; /* Card ki width control karne ke liye */
+  background: #fdfcf8;
+  max-width: 700px;
+  height: auto;
   padding: 40px;
   border-radius: 12px;
   position: relative;
@@ -3046,7 +3046,7 @@ body {
 
 .review-header {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 47px;
 }
 
 .review-header h1 {
@@ -3060,7 +3060,6 @@ body {
 }
 
 .review-header p {
-  margin-top: 5px;
   color: #9d9b98;
   font-family: Lato;
   font-size: 16px;
@@ -3073,7 +3072,7 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
 }
 
 .avatar-wrapper {
@@ -3087,51 +3086,160 @@ body {
   object-fit: cover;
 }
 
-.badge {
+.review-badge {
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #d1e7bc;
-  color: white;
+  top: -1px;
+  left: -6px;
   padding: 5px;
   border-radius: 50%;
   font-size: 10px;
-  border: 2px solid white;
 }
 
-.review-tags {
-  margin-bottom: 8px;
+.review-page-tags {
+  margin-bottom: 18px;
 }
 
-.review-tag {
-  background: #fff0eb;
-  color: #ff8c66;
+.review-page-tag {
+  background: rgba(251, 172, 131, 0.13);
   padding: 4px 12px;
   border-radius: 20px;
-  font-size: 12px;
   margin-right: 8px;
-  font-weight: 500;
-}
-
-.review-name {
-  font-size: 18px;
-  color: #333;
-}
-
-.review-studio-name {
-  color: #999;
+  color: #fbac83;
+  text-align: center;
+  font-family: Lato;
   font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.review-info-details {
+  display: flex;
+  gap: 26px;
+  margin-bottom: 14px;
+  align-items: center;
+}
+
+.review-info .review-name {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.review-info .review-studio-name {
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   margin-bottom: 10px;
 }
 
 .review-info-row {
   display: flex;
   gap: 20px;
-  color: #555;
-  font-size: 14px;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 9px;
 }
 
 .review-info-row i {
   margin-right: 5px;
   color: #666;
+}
+
+.rating-group {
+  margin-top: 25px;
+}
+
+.rating-section-title {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.optional {
+  color: #aaa;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+/* Stars Styling */
+.stars {
+  display: flex;
+  gap: 1rem;
+  color: #ffcc80; /* Light orange color */
+  cursor: pointer;
+  padding: 6px 2px;
+}
+
+.big-stars i {
+  font-size: 32px;
+}
+
+.small-stars i {
+  font-size: 18px;
+}
+
+.stars i.empty {
+  color: #eee; /* Grey color for empty stars */
+}
+
+/* Specific Areas Alignment */
+.specific-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%; /* Taki stars bohot door na jayein text se */
+  margin-bottom: 8px;
+  color: #555;
+  font-size: 15px;
+}
+
+.specific-row span {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Textarea Styling */
+.review-text-section {
+  margin-top: 25px;
+}
+
+textarea {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  resize: none; /* User box ka size change na kar sake */
+  font-size: 15px;
+  color: #333;
+  background-color: #fff;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+textarea:focus {
+  border-color: #ff9a7b; /* Focus hone par border orange ho jayega */
+}
+
+textarea::placeholder {
+  color: #ccc;
 }
