@@ -2927,6 +2927,7 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+  position: relative;
 }
 .pet-img {
   width: 48px;
@@ -2935,18 +2936,16 @@ body {
   border: 2px solid white;
   margin-top: 3rem;
   margin-right: 1.5rem;
-  position: relative;
 }
 
 .second-pet {
   position: absolute;
-  margin-left: -25px;
-  left: 66%;
-  /* z-index: 2; */
+  /* margin-left: -25px; */
+  z-index: 2;
+  right: 40px;
 }
 
 .first-pet {
-  z-index: 1;
   right: 1.3rem;
 }
 
