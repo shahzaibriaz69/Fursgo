@@ -2687,7 +2687,7 @@ body {
 }
 
 /* Section Title */
-.upcoming-section {
+.new-section {
   margin-top: -47px;
   max-width: 820px;
 }
@@ -2708,7 +2708,16 @@ body {
 .bookings-cards {
   border: 1px solid #d8e8b7;
   border-radius: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 3rem;
+  overflow: hidden;
+  width: 820px;
+  height: 223px;
+}
+
+.bookings-cards-light {
+  border: 1px solid #f8f8f8;
+  border-radius: 15px;
+  margin-bottom: 3rem;
   overflow: hidden;
   width: 820px;
   height: 223px;
@@ -2721,6 +2730,15 @@ body {
   border-bottom: 1px solid #e0eed4;
   align-items: center;
   background: #f5f9ed;
+}
+
+.cards-header-light {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+  border-bottom: 1px solid #f8f8f8;
+  align-items: center;
+  background: #efefef;
 }
 
 .status-badge {
@@ -2737,6 +2755,17 @@ body {
   line-height: normal;
 }
 
+.light {
+  background: #d2d2d2;
+}
+
+.pink {
+  background: #ff6e6e;
+}
+
+.light-pink {
+  background-color: #ffeded;
+}
 .studio-name {
   color: #3b3731;
   font-family: Lato;
@@ -2745,6 +2774,16 @@ body {
   font-weight: 600;
   line-height: normal;
 }
+
+.hosted {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .host {
   color: #9d9b98;
   font-family: Lato;
@@ -2810,13 +2849,45 @@ body {
   border-radius: 20px;
   position: absolute;
   top: -10px;
-  right: -7rem;
+  right: -8rem;
+}
+
+.service-type-pink {
+  background: #ffa899;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 4px 10px;
+  border-radius: 20px;
+  position: absolute;
+  top: -10px;
+  right: -8rem;
+}
+
+.service-type-light {
+  background: #d2d2d2;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 4px 10px;
+  border-radius: 20px;
+  position: absolute;
+  top: -10px;
+  right: -8rem;
 }
 
 /* Grid for Service, Date, Time, Location */
 .details-grids {
   display: flex;
-  gap: 20px;
+  gap: 22px;
   flex-grow: 1;
   margin-top: 3rem;
 }
@@ -2864,6 +2935,19 @@ body {
   border: 2px solid white;
   margin-top: 3rem;
   margin-right: 1.5rem;
+  position: relative;
+}
+
+.second-pet {
+  position: absolute;
+  margin-left: -25px;
+  left: 66%;
+  /* z-index: 2; */
+}
+
+.first-pet {
+  z-index: 1;
+  right: 1.3rem;
 }
 
 .action-btns {
