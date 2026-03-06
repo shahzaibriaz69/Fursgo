@@ -2714,13 +2714,54 @@ body {
   height: 223px;
 }
 
-.bookings-cards-light {
-  border: 1px solid #f8f8f8;
+.bookings-cards-pink {
+  /* border: 1px solid #d8e8b7; */
   border-radius: 15px;
   margin-bottom: 3rem;
   overflow: hidden;
   width: 820px;
-  height: 223px;
+  height: auto;
+}
+
+.bookings-cards-light {
+  border: 1px solid #f8f8f8;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+  /* overflow: hidden; */
+  width: 820px;
+  height: auto;
+}
+
+.write-review-btn {
+  background-color: #cbdce8;
+  padding: 8px 16px;
+  border-radius: 8px 8px 0px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+  width: 190px;
+  height: 48px;
+  margin-left: 39.3rem;
+}
+
+.write-review-btn p {
+  color: #fff;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cards-header-light {
+  background-color: #efefef;
+  padding: 15px;
+  border-radius: 12px 0px 0px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .cards-header {
@@ -2730,6 +2771,7 @@ body {
   border-bottom: 1px solid #e0eed4;
   align-items: center;
   background: #f5f9ed;
+  border-radius: 12px 0px 0px 0px;
 }
 
 .cards-header-light {

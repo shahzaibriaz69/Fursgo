@@ -332,6 +332,15 @@
 
 
         <div class="bookings-cards-light">
+            <div class="write-review-btn">
+                <p>Write a review</p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                    <path
+                        d="M9.01186 2.34578L11.306 4.75742M7.48245 13.6001H13.6001M1.3648 10.3846L0.600098 13.6001L3.65892 12.7962L12.5188 3.48247C12.8055 3.18097 12.9666 2.7721 12.9666 2.34578C12.9666 1.91946 12.8055 1.51059 12.5188 1.2091L12.3873 1.07083C12.1005 0.76942 11.7115 0.600098 11.306 0.600098C10.9004 0.600098 10.5115 0.76942 10.2247 1.07083L1.3648 10.3846Z"
+                        stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
             <div class="cards-header-light">
                 <div class="header-left">
                     <span class="status-badge light">Completed</span>
@@ -433,7 +442,16 @@
             </div>
         </div>
 
-        <div class="bookings-cards">
+        <div class="bookings-cards-pink">
+            <div class="write-review-btn">
+                <p>Write a review</p>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
+                    <path
+                        d="M9.01186 2.34578L11.306 4.75742M7.48245 13.6001H13.6001M1.3648 10.3846L0.600098 13.6001L3.65892 12.7962L12.5188 3.48247C12.8055 3.18097 12.9666 2.7721 12.9666 2.34578C12.9666 1.91946 12.8055 1.51059 12.5188 1.2091L12.3873 1.07083C12.1005 0.76942 11.7115 0.600098 11.306 0.600098C10.9004 0.600098 10.5115 0.76942 10.2247 1.07083L1.3648 10.3846Z"
+                        stroke="white" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+            </div>
             <div class="cards-header light-pink">
                 <div class="header-left">
                     <span class="status-badge pink">Cancelled</span>
@@ -637,7 +655,7 @@
             </div>
         </div>
 
-        <div class="bookings-cards">
+        <div class="bookings-cards-pink">
             <div class="cards-header light-pink">
                 <div class="header-left">
                     <span class="status-badge pink">Cancelled</span>
@@ -738,6 +756,8 @@
                 </div>
             </div>
         </div>
+
+        <button class="load-more">Load More</button>
     </section>
 
 
