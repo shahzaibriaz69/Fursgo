@@ -3631,8 +3631,8 @@ textarea::placeholder {
   color: #ffffff;
 }
 .top-rated {
-  background: #ffebee;
-  color: #ef5350;
+  background: #ffa899;
+  color: #ffffff;
 }
 
 .sub-name {
@@ -3648,6 +3648,9 @@ textarea::placeholder {
   border-radius: 15px;
   font-size: 12px;
   font-weight: 600;
+  position: absolute;
+  top: -10px;
+  right: -7px;
 }
 
 .rating-loc-row {
