@@ -3246,10 +3246,33 @@ textarea::placeholder {
   margin-top: 25px;
 }
 
+.photos-section-title {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  /* margin-bottom: 1rem; */
+}
+
+.photos-section-title .optional {
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .sub-text {
-  font-size: 13px;
-  color: #aaa;
-  margin-bottom: 15px;
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1.5rem;
 }
 
 .upload-grid {
@@ -3259,7 +3282,8 @@ textarea::placeholder {
 
 .upload-box {
   flex: 1;
-  height: 180px;
+  width: 190px;
+  height: 190px;
   background-color: #fcfcfc;
   border: 1px dashed #eee;
   border-radius: 12px;
@@ -3270,6 +3294,10 @@ textarea::placeholder {
   gap: 15px;
 }
 
+.upload-box span {
+  margin-top: 1.5rem;
+}
+
 .placeholder-icon {
   font-size: 50px;
   color: #e0e0e0;
@@ -3277,38 +3305,102 @@ textarea::placeholder {
 
 .upload-btn {
   background: white;
-  border: 1px solid #333;
+  border: 1px solid #3b3731;
   padding: 10px 15px;
   border-radius: 25px;
-  font-size: 14px;
   cursor: pointer;
-  font-weight: 500;
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
   display: flex;
   align-items: center;
   gap: 8px;
+  width: 162px;
+  height: 48px;
+  margin-top: 1.5rem;
+}
+
+.anonymous-section {
+  margin-top: 2rem;
+}
+
+.anonymous-section-title {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 /* Anonymous Checkbox */
-.anonymous-section {
-  margin-top: 30px;
-}
-
-.checkbox-container {
+.custom-checkbox-container {
   display: flex;
   align-items: center;
-  gap: 10px;
-  color: #888;
-  font-size: 15px;
   cursor: pointer;
+  font-size: 15px;
+  color: #999; /* Light grey text jaisa image mein hai */
+  user-select: none;
+  margin: 20px 0;
 }
 
-.checkbox-container input {
+.custom-checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.custom-checkbox-container .checkbox input {
   width: 20px;
   height: 20px;
-  accent-color: #ff9a7b; /* Checkbox color */
+  accent-color: #ff9a7b;
 }
 
-/* Footer Buttons */
+.circle-check {
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block;
+  position: relative;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.custom-checkbox-container input:checked ~ .circle-check {
+  background-color: #ff9a7b;
+  border-color: #ff9a7b;
+}
+
+.circle-check:after {
+  content: "";
+  position: absolute;
+  display: none;
+  left: 6px;
+  top: 3px;
+  width: 4px;
+  height: 9px;
+
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox-container input:checked ~ .circle-check:after {
+  display: block;
+}
+
+.label-text {
+  color: #a0a0a0;
+  font-size: 14px;
+}
+
 .footer-actions {
   display: flex;
   justify-content: space-between;
@@ -3316,7 +3408,7 @@ textarea::placeholder {
   gap: 20px;
 }
 
-.btn-cancel {
+.footer-btn-cancel {
   flex: 1;
   padding: 15px;
   border-radius: 30px;
@@ -3325,9 +3417,11 @@ textarea::placeholder {
   font-size: 16px;
   font-weight: 600;
   cursor: pointer;
+  width: 212px;
+  height: 48px;
 }
 
-.btn-submit {
+.footer-btn-submit {
   flex: 1;
   padding: 15px;
   border-radius: 30px;
