@@ -81,7 +81,7 @@
 
 
                                 <div class="rating-loc-row">
-                                    <span class="service-type">Home Visits</span>
+                                    <span class="rating-service-type">Home Visits</span>
 
                                     <span><i class="fas fa-map-marker-alt"></i> 2.5 mi</span>
                                     <span><i class="fas fa-star"></i> 4.3 <small>(20 reviews)</small></span>
