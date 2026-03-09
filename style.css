@@ -3414,9 +3414,14 @@ textarea::placeholder {
   border-radius: 30px;
   border: 1px solid #333;
   background: white;
-  font-size: 16px;
-  font-weight: 600;
   cursor: pointer;
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
   width: 212px;
   height: 48px;
 }
@@ -3426,15 +3431,15 @@ textarea::placeholder {
   padding: 15px;
   border-radius: 30px;
   border: none;
-  background-color: #d1e1eb; /* Light blue/grey disabled look */
-  color: white;
-  font-size: 16px;
-  font-weight: 600;
-  cursor: not-allowed;
-}
-
-/* Submit button active state (jab form fill ho jaye) */
-.btn-submit.active {
-  background-color: #a8c6d9;
   cursor: pointer;
+  background-color: #cbdce8;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 212px;
+  height: 48px;
 }

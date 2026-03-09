@@ -284,8 +284,11 @@
         </div>
 
         <div class="footer-actions">
-            <button class="footer-btn-cancel">Cancel</button>
-            <button class="footer-btn-submit" disabled>Submit Review</button>
+            <div>
+                <button class="footer-btn-cancel">Cancel</button>
+            </div>
+            <div> <button class="footer-btn-submit" disabled>Submit Review</button></div>
+
         </div>
     </section>
 
