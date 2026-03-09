@@ -40,7 +40,7 @@
             <div class="card-content">
                 <div class="groomer-row">
                     <div class="groomer-img-container">
-                        <img src="images/favourite_card_1.svg" alt="Grooming">
+                        <img src="images/booking-modal.svg" alt="Grooming">
                         <div class="shield-badge"><i class="fas fa-paw"></i></div>
                     </div>
 
@@ -54,9 +54,10 @@
                         </div>
                         <p class="sub-name">Sarah W.</p>
 
-                        <span class="service-type">Home Visits</span>
 
                         <div class="rating-loc-row">
+                            <span class="service-type">Home Visits</span>
+
                             <span><i class="fas fa-map-marker-alt"></i> 2.5 mi</span>
                             <span><i class="fas fa-star"></i> 4.3 <small>(20 reviews)</small></span>
                         </div>
@@ -79,6 +80,33 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <div class="pet-info-card">
+                <div class="pet-profile">
+                    <img src="images/pet-card-image_1.png" alt="Bella">
+                </div>
+                <div class="pet-details-grid">
+                    <div class="detail-item">
+                        <label><i class="fas fa-paw"></i> Bella</label>
+                        <p>Rabbit • Mini Lop</p>
+                    </div>
+                    <div class="detail-item">
+                        <label><i class="fas fa-birthday-cake"></i> Birthday</label>
+                        <p>22/08/2020</p>
+                    </div>
+                    <div class="detail-item">
+                        <label><i class="fas fa-venus-mars"></i> Sex</label>
+                        <p>Female</p>
+                    </div>
+                    <div class="detail-item">
+                        <label><i class="fas fa-sticky-note"></i> Notes</label>
+                        <p>Nervous around hair-dryers.</p>
+                    </div>
+                </div>
+                <div class="arrow-circle">
+                    <i class="fas fa-arrow-right"></i>
                 </div>
             </div>
         </div>
