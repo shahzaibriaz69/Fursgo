@@ -109,6 +109,22 @@
                     <i class="fas fa-arrow-right"></i>
                 </div>
             </div>
+
+            <div class="next-steps">
+                <h4>What happens next?</h4>
+                <ul>
+                    <li>Your booking is secured for the selected time.</li>
+                    <li>You can manage or cancel your booking from your account.</li>
+                </ul>
+                <div class="price-line">
+                    <span>Total</span>
+                    <span class="total-amount">£48.00</span>
+                </div>
+            </div>
+            <div class="card-actions">
+                <button class="btn-outline">Change Booking</button>
+                <button class="btn-green">Message Groomer</button>
+            </div>
         </div>
         <div class="booking-footer">
             <div class="cancel-policy">
