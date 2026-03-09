@@ -18,7 +18,7 @@ body {
   color: #333;
 }
 
-.main-conatiner {
+.main-container {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -3442,4 +3442,253 @@ textarea::placeholder {
   line-height: normal;
   width: 212px;
   height: 48px;
+}
+
+.booking-modal {
+  background: white;
+  width: 90%;
+  max-width: 850px;
+  padding: 50px;
+  border-radius: 12px;
+  position: relative;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Top Right Close Button */
+.close-x {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: white;
+  font-size: 22px;
+  color: #666;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.modal-header h1 {
+  font-size: 32px;
+  margin: 0;
+  color: #333;
+  font-weight: 500;
+}
+
+.modal-header p {
+  color: #888;
+  margin: 5px 0 0 0;
+}
+
+/* The Main Orange Border Card */
+.booking-card {
+  border: 1.5px solid #ffe8cc; /* Light orange border */
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Top Orange Bar */
+.card-header-bar {
+  background-color: #fff4e5; /* Light orange background */
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ffe8cc;
+}
+
+.status-badge {
+  background-color: #dcedc8; /* Light green */
+  color: #689f38;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.ref-container {
+  font-size: 14px;
+  color: #555;
+}
+
+.pdf-download {
+  margin-left: 15px;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* Card Body Content */
+.card-content {
+  padding: 25px;
+}
+
+.groomer-row {
+  display: flex;
+  gap: 20px;
+}
+
+.groomer-img-container {
+  position: relative;
+  width: 120px;
+  height: 120px;
+}
+
+.groomer-img-container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.shield-badge {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  background-color: #dcedc8;
+  color: white;
+  padding: 4px;
+  border-radius: 6px;
+  font-size: 10px;
+}
+
+/* Info Details */
+.groomer-main-info {
+  flex: 1;
+}
+
+.studio-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.studio-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.pill-badges {
+  display: flex;
+  gap: 8px;
+}
+
+.pill {
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.popular {
+  background: #e1f5fe;
+  color: #0288d1;
+}
+.top-rated {
+  background: #ffebee;
+  color: #ef5350;
+}
+
+.sub-name {
+  color: #888;
+  margin: 2px 0 10px 0;
+  font-size: 14px;
+}
+
+.service-type {
+  background-color: #fff4e5;
+  color: #fb8c00;
+  padding: 4px 12px;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.rating-loc-row {
+  margin-top: 15px;
+  display: flex;
+  gap: 15px;
+  color: #666;
+  font-size: 14px;
+}
+
+.rating-loc-row i {
+  color: #fb8c00;
+}
+
+.booking-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.meta-box {
+  border-right: 1px solid #eee;
+  padding: 0 15px;
+}
+
+.meta-box.last {
+  border-right: none;
+}
+
+.meta-box label {
+  font-size: 13px;
+  color: #999;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 5px;
+}
+
+.meta-box p {
+  font-weight: 500;
+  color: #333;
+  margin: 0;
+}
+
+.booking-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+  padding: 0 5px;
+}
+.cancel-policy a {
+  color: #333;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.cancel-policy p {
+  color: #999;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.view-policy {
+  font-size: 14px;
+  color: #333;
+}
+
+.help-text {
+  text-align: center;
+  margin-top: 40px;
+  color: #666;
+  font-size: 15px;
+}
+.help-text i {
+  color: #c5e1a5;
+  font-size: 20px;
+  vertical-align: middle;
+  margin-right: 5px;
 }

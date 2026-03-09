@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <div class="main-conatiner">
+    <div class="main-container">
         <div class="profile">
             <h2 class="profile-title">My Profile</h2>
         </div>
