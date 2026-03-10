@@ -3443,8 +3443,7 @@ textarea::placeholder {
 
 .booking-modal {
   background: #fdfcf8;
-  width: 90%;
-  max-width: 850px;
+  width: 900px;
   padding: 50px;
   border-radius: 12px;
   position: relative;
@@ -3456,7 +3455,7 @@ textarea::placeholder {
   border-radius: 10px;
   overflow: hidden;
   /* padding: 20px; */
-  width: 780px;
+  width: 805px;
   height: auto;
 }
 
@@ -3647,7 +3646,7 @@ textarea::placeholder {
 }
 
 .rating-loc-row {
-  margin-top: 15px;
+  margin-top: 23px;
   display: flex;
   /* gap: 10px; */
   color: #666;
@@ -3660,15 +3659,15 @@ textarea::placeholder {
 }
 
 .booking-meta-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  padding-top: 20px;
-  margin-top: 20px;
+  display: flex;
+  margin-left: -1rem;
+  margin-top: 2rem;
+  gap: 2rem;
 }
 
 .meta-box {
   border-right: 1px solid #d4d4d4;
-  padding: 1px 24px;
+  padding: 1px 20px;
 }
 
 .meta-box.last {
@@ -3698,30 +3697,75 @@ textarea::placeholder {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-top: 30px;
+  margin-top: 3rem;
   padding: 0 5px;
 }
 .cancel-policy a {
-  color: #333;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
   font-weight: 600;
-  text-decoration: underline;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }
+
 .cancel-policy p {
-  color: #999;
-  font-size: 13px;
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   margin-top: 5px;
 }
 .view-policy {
-  font-size: 14px;
-  color: #333;
+  color: #3b3731;
+  text-align: right;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }
 
 .help-text {
   text-align: center;
   margin-top: 40px;
-  color: #666;
-  font-size: 15px;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
+
+.help-text a {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+}
+
 .help-text i {
   color: #c5e1a5;
   font-size: 20px;
@@ -3737,6 +3781,8 @@ textarea::placeholder {
   display: flex;
   align-items: center;
   gap: 20px;
+  width: 749px;
+  height: 105px;
   position: relative;
 }
 
@@ -3771,8 +3817,8 @@ textarea::placeholder {
 }
 
 .arrow-circle {
-  width: 35px;
-  height: 35px;
+  width: 48px;
+  height: 48px;
   background-color: #e0e0e0;
   border-radius: 50%;
   display: flex;

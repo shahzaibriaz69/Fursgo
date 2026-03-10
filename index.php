@@ -21,7 +21,12 @@
 
 <body>
     <div class="booking-modal main-container">
-        <button class="close-x">&times;</button>
+        <button class="close-x"><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36"
+                fill="none">
+                <circle cx="18" cy="18" r="17.5" stroke="#3B3731" />
+                <path d="M12.7998 23.9998L23.9998 12.7998M12.7998 12.7998L23.9998 23.9998" stroke="#3B3731"
+                    stroke-width="1.5" stroke-linecap="round" />
+            </svg></button>
 
         <div class="modal-header">
             <h1>My Bookings</h1>
@@ -242,7 +247,11 @@
         </div>
 
         <div class="help-text">
-            <i class="fas fa-comment-dots"></i> Need help? Chat with <a href="#">Fursgo Support</a>.
+            <svg xmlns="http://www.w3.org/2000/svg" width="34" height="28" viewBox="0 0 34 28" fill="none">
+                <path
+                    d="M3.08333 13.875C1.3875 13.875 0 12.4875 0 10.7917V3.08333C0 1.3875 1.3875 0 3.08333 0H15.4167C17.1125 0 18.5 1.3875 18.5 3.08333V10.7917C18.5 12.4875 17.1125 13.875 15.4167 13.875H12.3333V18.5L7.70833 13.875H3.08333ZM30.8333 23.125C32.5292 23.125 33.9167 21.7375 33.9167 20.0417V12.3333C33.9167 10.6375 32.5292 9.25 30.8333 9.25H21.5833V10.7917C21.5833 14.1833 18.8083 16.9583 15.4167 16.9583V20.0417C15.4167 21.7375 16.8042 23.125 18.5 23.125H21.5833V27.75L26.2083 23.125H30.8333Z"
+                    fill="#D8E8B7" />
+            </svg> Need help? Chat with <a href="#">Fursgo Support</a>.
         </div>
     </div>
     </div>
