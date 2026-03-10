@@ -3509,13 +3509,13 @@ textarea::placeholder {
   border-bottom: 1px solid #ffe8cc;
 }
 
-.status-badge {
-  background-color: #dcedc8;
-  color: #689f38;
+.modal-status-badge {
+  background-color: #c9dda0;
+  color: #ffffff;
   padding: 5px 15px;
   border-radius: 20px;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
 }
 
 .ref-container {
@@ -3879,7 +3879,8 @@ textarea::placeholder {
   justify-content: center;
   align-items: center;
   gap: 15px;
-  margin-top: 30px;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
 }
 .card-actions .btn-outline {
   flex: 1;
@@ -3899,7 +3900,7 @@ textarea::placeholder {
   padding: 12px;
   border-radius: 25px;
   border: none;
-  background: #dcedc8;
+  background: #c9dda0;
   color: #ffffff;
   font-size: 18px;
   cursor: pointer;

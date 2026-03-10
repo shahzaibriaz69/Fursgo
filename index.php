@@ -36,7 +36,7 @@
         <div class="modal-card">
             <div class="modal-booking-card">
                 <div class="card-header-bar">
-                    <span class="status-badge">Confirmed</span>
+                    <span class="modal-status-badge">Confirmed</span>
                     <div class="ref-container">
                         Booking reference: FG-10294
                         <span class="pdf-download"><svg xmlns="http://www.w3.org/2000/svg" width="13" height="15"
@@ -135,7 +135,7 @@
                                             </svg> Date</label>
                                         <p>18/12/2025</p>
                                     </div>
-                                    <div class="meta-box vertical-line></div>">
+                                    <div class="meta-box">
                                         <label>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
                                                 viewBox="0 0 16 16" fill="none">
