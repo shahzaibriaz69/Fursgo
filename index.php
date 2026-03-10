@@ -55,30 +55,33 @@
                     </div>
                 </div>
                 <div style="padding: 30px;">
-                    <div class="modal-content.page-2">
+                    <div class="modal-content-page-2">
 
-                        <!-- Image -->
-                        <div class="studio-image">
-                            <img src="images/booking-modal-img.png" alt="Grooming">
-                        </div>
-
-                        <!-- Details -->
-                        <div class="studio-details">
-
-                            <div class="tags">
-                                <span class="popular">Popular</span>
-                                <span class="rated">Top Rated</span>
+                        <div class="modal-studio">
+                            <div class="studio-image">
+                                <img src="images/booking-modal-img.png" alt="Grooming">
                             </div>
 
-                            <h3>Furs & Co. Studio</h3>
-                            <p class="hosted">Hosted by Dev É.</p>
+                            <!-- Details -->
+                            <div class="studio-details">
+                                <div class="rating-loc-row">
+                                    <div class="tags">
+                                        <span class="popular">Popular</span>
+                                        <span class="rated">Top Rated</span>
+                                    </div>
+                                    <h3>Furs & Co. Studio</h3>
+                                    <p class="hosted">Hosted by Dev É.</p>
 
-                            <span class="category">Garden / Shed</span>
-
-                            <div class="rating">
-                                📍 2.5 mi
-                                ⭐ 4.3 (20 reviews)
+                                    <span class="category">Garden / Shed</span>
+                                    <div class="rating">
+                                        📍 2.5 mi
+                                        ⭐ 4.3 (20 reviews)
+                                    </div>
+                                </div>
                             </div>
+
+                            <!-- Image -->
+
 
                             <!-- Bottom Info -->
                             <div class="booking-meta">
@@ -107,6 +110,7 @@
 
                         </div>
 
+
                     </div>
                 </div>
             </div>
@@ -128,6 +132,7 @@
                     fill="#D8E8B7" />
             </svg> Need help? Chat with <a href="#">Fursgo Support</a>.
         </div>
+    </div>
     </div>
 
 </body>
