@@ -65,52 +65,31 @@
                             <!-- Details -->
                             <div class="studio-details">
                                 <div class="rating-loc-row">
-                                    <div class="tags">
-                                        <span class="popular">Popular</span>
-                                        <span class="rated">Top Rated</span>
-                                    </div>
-                                    <h3>Furs & Co. Studio</h3>
-                                    <p class="hosted">Hosted by Dev É.</p>
 
-                                    <span class="category">Garden / Shed</span>
-                                    <div class="rating">
-                                        📍 2.5 mi
-                                        ⭐ 4.3 (20 reviews)
+                                    <div class="modal-content">
+                                        <div class="modal-host">
+                                            <h3>Furs & Co. Studio</h3>
+                                            <p class="hosted">Hosted <span>by Dev É.</span> </p>
+                                            <span class="modal-category">Garden / Shed</span>
+                                        </div>
+
+                                        <div class="modal-tags" style="flex-direction: column;" gap="10px">
+                                            <div class=" tags">
+                                                <span class="popular">Popular</span>
+                                                <span class="rated">Top Rated</span>
+                                            </div>
+
+                                            <div class="rating">
+                                                📍 2.5 mi
+                                                ⭐ 4.3 (20 reviews)
+                                            </div>
+                                        </div>
+
+
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- Image -->
-
-
-                            <!-- Bottom Info -->
-                            <div class="booking-meta">
-
-                                <div class="meta-item">
-                                    <p>Space</p>
-                                    <span>Garden / Shed</span>
-                                </div>
-
-                                <div class="meta-item">
-                                    <p>Date</p>
-                                    <span>18/12/2025</span>
-                                </div>
-
-                                <div class="meta-item">
-                                    <p>Time</p>
-                                    <span>Half-Day (14:30 - 18:30)</span>
-                                </div>
-
-                                <div class="meta-item">
-                                    <p>Location</p>
-                                    <span>Victoria Embankment</span>
-                                </div>
-
-                            </div>
-
                         </div>
-
-
                     </div>
                 </div>
             </div>

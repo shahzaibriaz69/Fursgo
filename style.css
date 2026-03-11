@@ -3922,6 +3922,7 @@ textarea::placeholder {
   padding: 15px 20px;
   border-bottom: 1px solid #fbac83;
   background: rgba(251, 172, 131, 0.2);
+  margin: 0;
 }
 
 .modal-header-status {
@@ -4012,4 +4013,61 @@ textarea::placeholder {
 .meta-item span {
   font-size: 14px;
   font-weight: 500;
+}
+
+.modal-studio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modal-content {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.modal-host {
+  margin-top: 2rem;
+}
+
+.modal-host h3 {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.modal-host p {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 1rem;
+}
+
+.hosted span {
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.modal-category {
+  background: #ffa899;
+  padding: 9px 15px;
+  border-radius: 15px;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
