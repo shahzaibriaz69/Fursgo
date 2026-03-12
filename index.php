@@ -232,6 +232,58 @@
 
                         </div>
 
+                        <div class="amenities-section">
+
+                            <h3>Amenities Include</h3>
+
+                            <div class="amenities-list">
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="9"
+                                            viewBox="0 0 12 9" fill="none">
+                                            <path d="M0.75 4.75L4.25 8.25L11.25 0.75" stroke="#3B3731"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></span> Grooming Table</p>
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="9"
+                                            viewBox="0 0 12 9" fill="none">
+                                            <path d="M0.75 4.75L4.25 8.25L11.25 0.75" stroke="#3B3731"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></span> Bath</p>
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="9"
+                                            viewBox="0 0 12 9" fill="none">
+                                            <path d="M0.75 4.75L4.25 8.25L11.25 0.75" stroke="#3B3731"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></span> Dryer</p>
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="9"
+                                            viewBox="0 0 12 9" fill="none">
+                                            <path d="M0.75 4.75L4.25 8.25L11.25 0.75" stroke="#3B3731"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></span> Towels</p>
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="9"
+                                            viewBox="0 0 12 9" fill="none">
+                                            <path d="M0.75 4.75L4.25 8.25L11.25 0.75" stroke="#3B3731"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                                        </svg></span> Waiting area</p>
+                                <p><span><svg xmlns="http://www.w3.org/2000/svg" width="12" height="9"
+                                            viewBox="0 0 12 9" fill="none">
+                                            <path d="M0.75 4.75L4.25 8.25L11.25 0.75" stroke="#3B3731"
+                                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin("round") />
+                                        </svg></span> Parking</p>
+                                <p><span>✔</span> Wi-Fi</p>
+                            </div>
+
+                            <p class="amenities-desc">
+                                Extra towels · Premium shampoos · Drying crates · Tool storage (where available).
+                            </p>
+
+                            <div class="access-info">
+                                <h4>Access information</h4>
+                                <p>
+                                    You'll receive the exact address and access instructions closer to your booking
+                                    time via email and in your booking details.
+                                </p>
+                            </div>
+
+                        </div>
+
 
                     </div>
                 </div>
