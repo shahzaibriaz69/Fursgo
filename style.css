@@ -3461,35 +3461,39 @@ textarea::placeholder {
 /* Top Right Close Button */
 .close-x {
   position: absolute;
-  right: 25px;
-  top: 25px;
-  width: 35px;
-  height: 35px;
+  right: 21px;
+  top: 42px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   border: 1px solid #ddd;
   background: white;
-  font-size: 22px;
-  color: #666;
   cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.modal-header {
+.booking-modal-header {
   text-align: center;
   margin-bottom: 30px;
 }
 
-.modal-header h1 {
-  font-size: 32px;
+.booking-modal-header h1 {
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
   margin: 0;
-  color: #333;
-  font-weight: 500;
 }
 
-.modal-header p {
-  color: #888;
+.booking-modal-header p {
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
   margin: 5px 0 0 0;
 }
 
@@ -3927,10 +3931,15 @@ textarea::placeholder {
 
 .modal-header-status {
   background: #c9dda0;
-  color: #ffffff;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
   padding: 5px 12px;
   border-radius: 20px;
-  font-size: 14px;
 }
 
 .booking-info {
@@ -4151,16 +4160,22 @@ textarea::placeholder {
   line-height: normal;
 }
 
+.pdf span {
+  margin-left: 2px;
+}
+
 .modal-booking-meta {
   display: flex;
   gap: 2.5rem;
-  margin-top: 20px;
-  padding-top: 15px;
+  /* margin-top: 20px; */
+  padding-top: 25px;
   padding-left: 5px;
 }
 
 .modal-meta-item p {
   margin-bottom: 7px;
+  display: flex;
+  align-items: center;
 }
 
 .modal-meta-item p span {
@@ -4248,7 +4263,7 @@ textarea::placeholder {
 }
 
 .amenities-section h3 {
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   color: #3b3731;
   font-family: Lato;
   font-size: 18px;
@@ -4263,7 +4278,7 @@ textarea::placeholder {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .amenities-list p {

@@ -28,7 +28,7 @@
                     stroke-width="1.5" stroke-linecap="round" />
             </svg></button>
 
-        <div class="modal-header">
+        <div class="booking-modal-header">
             <h1>My Bookings</h1>
             <p>Your upcoming booking.</p>
         </div>
