@@ -54,7 +54,7 @@
                                 </svg></span> PDF</span>
                     </div>
                 </div>
-                <div style="padding: 15px; ">
+                <div style="padding: 21px; ">
                     <div class="modal-content-page-2">
 
                         <div class="modal-studio">
@@ -281,6 +281,32 @@
                                     time via email and in your booking details.
                                 </p>
                             </div>
+
+                        </div>
+
+                        <div class="modal-booking-next">
+
+                            <div class="modal-next-left">
+                                <h3>What happens next?</h3>
+
+                                <ul>
+                                    <li>The groomer and space host have both been notified.</li>
+                                    <li>You’ll receive the exact address and access instructions closer to your booking
+                                        time via email and in your booking details.</li>
+                                    <li>You can manage or cancel your bookings from your account.</li>
+                                </ul>
+                            </div>
+
+                            <div class="modal-next-right">
+                                <p class="modal-total">Total <span>£158.00</span></p>
+                            </div>
+
+                        </div>
+
+                        <div class="modal-booking-actions">
+                            <div> <button class="modal-change-booking">Change Booking</button></div>
+                            <div><button class="modal-message-host">Message Host</button></div>
+
 
                         </div>
 
