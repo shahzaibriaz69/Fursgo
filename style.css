@@ -4452,3 +4452,147 @@ textarea::placeholder {
   width: 295px;
   height: 48px;
 }
+
+.cb-booking-modal {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Header */
+.cb-modal-header {
+  background: #f8f8f8;
+  padding: 30px;
+  text-align: center;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.cb-modal-header h1 {
+  color: #3b3731;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cb-nav-container {
+  width: 230px;
+  height: 48px;
+}
+
+/* Back Button */
+.cb-back-btn {
+  background: none;
+  border: 1px solid #3b3731;
+  border-radius: 50px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Card Styling */
+.cb-booking-card {
+  background: #f8f8f8;
+  border-radius: 15px;
+  padding: 25px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  position: relative;
+}
+
+.cb-provider-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cb-img-wrapper {
+  position: relative;
+}
+
+.cb-badge {
+  position: absolute;
+  top: 0;
+  left: -5px;
+  background: #b2d8b2;
+  color: white;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+
+/* Info Grid */
+.cb-info-grid {
+  flex-grow: 1;
+}
+
+.cb-tag-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.cb-category-tag {
+  background: var(--accent);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.cb-booking-ref {
+  color: var(--text-muted);
+  font-size: 14px;
+}
+
+.cb-details-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.cb-detail-item {
+  padding: 0 15px;
+  border-right: 1px solid #ddd;
+}
+
+.cb-detail-item:last-of-type {
+  border-right: none;
+}
+
+.cb-label {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0 0 5px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.cb-value {
+  font-weight: 500;
+  color: var(--text-dark);
+  margin: 0;
+}
+
+.cb-pet-thumbnail {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
