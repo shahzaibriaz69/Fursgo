@@ -5003,7 +5003,7 @@ textarea::placeholder {
 }
 
 .cb-btn-filled {
-  background: #ffc97a; /* Same orange as before */
+  background: #ffc97a;
   border: none;
   padding: 12px 50px;
   border-radius: 30px;

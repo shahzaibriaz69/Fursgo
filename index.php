@@ -1,4 +1,6 @@
-<?php include 'header.php'; ?>
+<?php include 'header.php';
+include_once __DIR__ . '/extras-addons.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -118,7 +120,7 @@
         </div>
     </section>
 
-    <div class="cb-update-section cb-container">
+    <section class="cb-update-section cb-container">
         <h2 class="cb-update-title">Update Date & Time</h2>
 
         <div class="cb-selection-container">
@@ -239,7 +241,7 @@
             <button class="cb-btn-cancel">Cancel</button>
             <button class="cb-btn-save">Save</button>
         </div>
-    </div>
+    </section>
 
     <script>
         // calendar
@@ -323,9 +325,13 @@
         renderCalendar();
     </script>
 
-    <?php include 'extra&add-ons.php'; ?>
+    <?php renderExtrasAddons([], [
+        'instance_id' => 'groomer',
+        'on_change_js' => 'handleExtrasChange'
+    ]); ?>
 
-    <div class="cb-summary-section cb-container">
+
+    <section class="cb-summary-section cb-container">
         <div class="cb-refund-alert">
             You'll receive a £5.00 refund. Refunds processed in 3-5 days
         </div>
@@ -340,7 +346,7 @@
                 <span class="cb-price-value updated bold">£43.00</span>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="cb-action-footer cb-container">
         <button class="cb-btn-outline">Cancel changes</button>
