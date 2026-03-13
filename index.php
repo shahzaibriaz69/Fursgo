@@ -150,43 +150,74 @@
                 </div>
             </div>
 
-            <div class="cb-calendar-wrapper">
-                <div class="cb-calendar-header">
-                    <button class="cb-cal-btn"><i class="fas fa-chevron-left"></i></button>
-                    <span class="cb-month-year">December 2025</span>
-                    <button class="cb-cal-btn"><i class="fas fa-chevron-right"></i></button>
+            <div class="calendar mt-4">
+                <div class="calendar-header">
+                    <button class="nav-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+                            <path d="M5.53426 10.484L0.499999 5.44975L5.44975 0.500005" stroke="#3B3731"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <span>October 2025</span>
+                    <button class="nav-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="11" viewBox="0 0 7 11" fill="none">
+                            <path d="M0.5 10.484L5.53426 5.44975L0.58451 0.500005" stroke="#3B3731"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
                 </div>
 
-                <div class="cb-days-header">
-                    <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
+                <div class="weekdays mt-4">
+                    <div>M</div>
+                    <div>T</div>
+                    <div>W</div>
+                    <div>T</div>
+                    <div>F</div>
+                    <div>S</div>
+                    <div>S</div>
                 </div>
 
-                <div class="cb-days-grid">
-                    <div class="cb-day cb-empty"></div>
-                    <div class="cb-day cb-empty"></div>
-                    <div class="cb-day cb-empty"></div>
-                    <div class="cb-day cb-empty"></div>
+                <div class="dates mt-4">
+                    <div></div>
+                    <div></div>
+                    <div class="date">1</div>
+                    <div class="date">2</div>
+                    <div class="date">3</div>
+                    <div class="date">4</div>
 
-                    <div class="cb-day">1</div>
-                    <div class="cb-day">2</div>
-                    <div class="cb-day">3</div>
-                    <div class="cb-day">4</div>
+                    <div class="date">5</div>
+                    <div class="date">6</div>
+                    <div class="date">7</div>
+                    <div class="date">8</div>
+                    <div class="date">9</div>
+                    <div class="date">10</div>
+                    <div class="date">11</div>
 
-                    <div class="cb-day">5</div>
-                    <div class="cb-day">6</div>
-                    <div class="cb-day cb-available">7</div>
-                    <div class="cb-day">8</div>
+                    <div class="date">12</div>
+                    <div class="date">13</div>
+                    <div class="date available selected">14</div>
+                    <div class="date">15</div>
+                    <div class="date">16</div>
+                    <div class="date">17</div>
+                    <div class="date">18</div>
 
-                    <div class="cb-day cb-available">9</div>
-                    <div class="cb-day">10</div>
-                    <div class="cb-day">11</div>
-                    <div class="cb-day">12</div>
+                    <div class="date">19</div>
+                    <div class="date">20</div>
+                    <div class="date">21</div>
+                    <div class="date">22</div>
+                    <div class="date">23</div>
+                    <div class="date">24</div>
+                    <div class="date">25</div>
 
-                    <div class="cb-day">13</div>
-                    <div class="cb-day cb-selected">14</div>
-                    <div class="cb-day cb-available">15</div>
-                    <div class="cb-day">16</div>
+                    <div class="date">26</div>
+                    <div class="date">27</div>
+                    <div class="date">28</div>
+                    <div class="date">29</div>
+                    <div class="date">30</div>
+                    <div class="date">31</div>
                 </div>
+
+
             </div>
 
             <div class="cb-time-slots">
