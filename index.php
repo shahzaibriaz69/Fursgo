@@ -326,10 +326,20 @@ include_once __DIR__ . '/extras-addons.php';
     </script>
 
     <div class="cb-container">
-        <?php renderExtrasAddons([], [
-            'instance_id' => 'groomer',
-            'on_change_js' => 'handleExtrasChange'
-        ]); ?>
+        <div class="cb-extras-addons">
+            <?php renderExtrasAddons([], [
+                'instance_id' => 'groomer',
+                'on_change_js' => 'handleExtrasChange',
+                'background' => 'true',
+            ]); ?>
+
+            <div class="cb-modal-footer">
+                <button class="cb-btn-cancel">Cancel</button>
+                <button class="cb-btn-save">Save</button>
+            </div>
+
+        </div>
+
     </div>
 
 

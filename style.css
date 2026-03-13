@@ -5020,3 +5020,11 @@ textarea::placeholder {
 /* .cb-btn-filled:hover {
   background: #ffb74d;
 } */
+
+.cb-extras-addons {
+  background-color: #ffffff;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  margin: 2rem 0;
+  padding: 30px;
+}

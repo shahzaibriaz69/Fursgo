@@ -31,6 +31,7 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
     $id = $options['instance_id'] ?? 'main';
     $defaultSelectedSize = count($options['default_selected'] ?? []);
     $onChangeCb = $options['on_change_js'] ?? '';
+    $hasBackground = $options['background'] ?? false;
 
     $addonsJson = json_encode(array_values($addons), JSON_HEX_TAG);
     $defaultSelectedJson = json_encode($options['default_selected'] ?? []);
@@ -49,8 +50,9 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
         }
 
         /* Selected tags */
-        .furs-addons-root .selected-tags {
-            display: flex;
+        .furs-addons-root .selected-furs-addons-tags {
+            display: none;
+            /* Hidden when empty */
             flex-wrap: wrap;
             gap: 8px;
             margin-bottom: 28px;
@@ -58,7 +60,14 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
             margin-top: 1rem;
         }
 
-        .furs-addons-root .tag {
+        .furs-addons-root .selected-furs-addons-tags.has-background {
+            background: #F8F8F8;
+            padding: 15px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        .furs-addons-root .furs-addons-tag {
             display: inline-flex;
             align-items: center;
             gap: 6px;
@@ -88,7 +97,7 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
             }
         }
 
-        .furs-addons-root .tag-remove {
+        .furs-addons-root .furs-addons-tag-remove {
             background: none;
             border: none;
             color: #fff;
@@ -100,7 +109,7 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
             transition: opacity 0.15s;
         }
 
-        .furs-addons-root .tag-remove:hover {
+        .furs-addons-root .furs-addons-tag-remove:hover {
             opacity: 1;
         }
 
@@ -195,7 +204,7 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
     </style>
     <div class="furs-addons-root" id="furs-addons-<?= htmlspecialchars($id) ?>">
         <h1 style="margin-bottom: 30px;"><?= $title ?></h1>
-        <div class="selected-tags" id="furs-tags-<?= htmlspecialchars($id) ?>"></div>
+        <div class="selected-furs-addons-tags" id="furs-tags-<?= htmlspecialchars($id) ?>"></div>
 
         <div class="options-grid">
             <div class="options-col" id="furs-col-left-<?= htmlspecialchars($id) ?>"></div>
@@ -209,6 +218,7 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
             const addons = <?= $addonsJson ?>;
             const currency = <?= json_encode($currency) ?>;
             const onChangeCb = <?= json_encode($onChangeCb) ?>;
+            const hasBackground = <?= json_encode($hasBackground) ?>;
             const selected = new Set(<?= $defaultSelectedJson ?>);
 
             function fmt(p) { return `${currency}${p}`; }
@@ -236,10 +246,17 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
                 const container = document.getElementById(`furs-tags-${id}`);
                 if (!container) return;
                 container.innerHTML = '';
-                addons.filter(a => selected.has(a.id)).forEach(a => {
+                const selectedItems = addons.filter(a => selected.has(a.id));
+
+                if (hasBackground) {
+                    container.classList.toggle('has-background', selectedItems.length > 0);
+                }
+                container.style.display = selectedItems.length > 0 ? 'flex' : 'none';
+
+                selectedItems.forEach(a => {
                     const tag = document.createElement('span');
-                    tag.className = 'tag';
-                    tag.innerHTML = `${a.name} <button class="tag-remove">✕</button>`;
+                    tag.className = 'furs-addons-tag';
+                    tag.innerHTML = `${a.name} <button class="furs-addons-tag-remove">✕</button>`;
                     tag.querySelector('button').onclick = (e) => {
                         e.stopPropagation();
                         toggle(a.id);
