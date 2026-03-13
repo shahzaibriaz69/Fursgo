@@ -4629,13 +4629,18 @@ textarea::placeholder {
   border: 1px solid #d4d4d4;
   border-radius: 10px;
   padding: 30px;
-  margin-top: 20px;
+  margin-top: 2rem;
 }
 
 .cb-update-section h2 {
-  font-size: 24px;
   margin-bottom: 25px;
-  color: #333;
+  color: #3b3731;
+  font-family: "Playfair Display";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-top: -0.9rem;
 }
 
 .cb-selection-container {
@@ -4750,7 +4755,7 @@ textarea::placeholder {
 }
 
 /* Availability */
-.availability {
+.cb-availability-title {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -4846,11 +4851,11 @@ textarea::placeholder {
   gap: 10px;
 }
 
-.cb-availability-title {
+/* .cb-availability-title {
   color: #9ccc65;
   font-weight: 600;
   margin-bottom: 10px;
-}
+} */
 
 .cb-slot {
   border: 1px solid #dce775;
@@ -4873,24 +4878,35 @@ textarea::placeholder {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
-  border-top: 1px solid #eee;
-  padding-top: 20px;
+  border-top: 1px solid #eae8e5;
+  padding-top: 25px;
 }
 
 .cb-btn-cancel {
-  border: 1px solid #ddd;
+  border: 1px solid #d4d4d4;
   background: #fff;
   padding: 10px 40px;
   border-radius: 30px;
-  color: #999;
+  color: #9d9b98;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .cb-btn-save {
-  background: #ffcc80;
+  background: #ffc97a;
   border: none;
   padding: 10px 50px;
   border-radius: 30px;
-  color: white;
-  font-weight: bold;
   cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }

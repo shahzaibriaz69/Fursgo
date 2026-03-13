@@ -221,12 +221,17 @@
             </div>
 
             <div class="cb-time-slots">
-                <p class="cb-availability-title"><i class="far fa-check-circle"></i> Availability</p>
-                <button class="cb-slot">09:00 AM</button>
-                <button class="cb-slot cb-active">11:00 AM</button>
-                <button class="cb-slot">12:00 PM</button>
-                <button class="cb-slot">16:00 PM</button>
-                <button class="cb-slot">20:00 PM</button>
+                <p class="cb-availability-title"><span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                            viewBox="0 0 18 18" fill="none">
+                            <path
+                                d="M9 0C4.05 0 0 4.05 0 9C0 13.95 4.05 18 9 18C13.95 18 18 13.95 18 9C18 4.05 13.95 0 9 0ZM7.2 13.5L2.7 9L3.969 7.731L7.2 10.953L14.031 4.122L15.3 5.4L7.2 13.5Z"
+                                fill="#D8E8B7" />
+                        </svg></span> Availability</p>
+                <div class="time">09:00 AM</div>
+                <div class="time selected">11:00 AM</div>
+                <div class="time">12:00 PM</div>
+                <div class="time" id="halfDay">Half Day</div>
+                <div class="time" id="fullDay">Full-Day</div>
             </div>
         </div>
 
@@ -236,7 +241,90 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script>
+        // calendar
+        const monthNames = [
+            "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ];
+
+        let currentDate = new Date(2025, 9); // October 2025
+
+        const headerTitle = document.querySelector('.calendar-header span');
+        const datesContainer = document.querySelector('.dates');
+        const prevBtn = document.querySelector('.nav-btn:first-child');
+        const nextBtn = document.querySelector('.nav-btn:last-child');
+
+        // Example available dates (can come from backend later)
+        const availableDates = [
+            "2025-10-07",
+            "2025-10-09",
+            "2025-10-14",
+            "2025-10-15",
+            "2025-10-20",
+            "2025-10-26",
+            "2025-10-29",
+            "2025-10-30"
+        ];
+
+        function renderCalendar() {
+            datesContainer.innerHTML = '';
+
+            const year = currentDate.getFullYear();
+            const month = currentDate.getMonth();
+
+            headerTitle.textContent = `${monthNames[month]} ${year}`;
+
+            const firstDay = new Date(year, month, 1).getDay() || 7;
+            const daysInMonth = new Date(year, month + 1, 0).getDate();
+
+            for (let i = 1; i < firstDay; i++) {
+                datesContainer.appendChild(document.createElement('div'));
+            }
+
+            for (let day = 1; day <= daysInMonth; day++) {
+                const dateDiv = document.createElement('div');
+                dateDiv.classList.add('date');
+                dateDiv.textContent = day;
+
+                const dateKey = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+
+                if (availableDates.includes(dateKey)) {
+                    dateDiv.classList.add('available');
+
+                    dateDiv.addEventListener('click', () => {
+                        document.querySelectorAll('.date').forEach(d => d.classList.remove('selected'));
+                        dateDiv.classList.add('selected');
+                    });
+                }
+
+                datesContainer.appendChild(dateDiv);
+            }
+        }
+
+        prevBtn.addEventListener('click', () => {
+            currentDate.setMonth(currentDate.getMonth() - 1);
+            renderCalendar();
+        });
+
+        nextBtn.addEventListener('click', () => {
+            currentDate.setMonth(currentDate.getMonth() + 1);
+            renderCalendar();
+        });
+
+        // Time selection (unchanged)
+        document.querySelectorAll('.time').forEach(time => {
+            time.addEventListener('click', () => {
+                document.querySelectorAll('.time').forEach(t => t.classList.remove('selected'));
+                time.classList.add('selected');
+            });
+        });
+
+        renderCalendar();
+    </script>
+
 </body>
+
+
 
 </html>
