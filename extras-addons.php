@@ -38,11 +38,6 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
     <style>
         .furs-addons-root {
             margin-bottom: 2rem;
-            margin-top: 3rem;
-            border: 1px solid #D4D4D4;
-            background: #FFF;
-            border-radius: 10px;
-            padding: 30px;
         }
 
         .furs-addons-root h1 {
@@ -56,23 +51,20 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
         /* Selected tags */
         .furs-addons-root .selected-tags {
             display: flex;
-            align-items: center;
             flex-wrap: wrap;
             gap: 8px;
+            margin-bottom: 28px;
             min-height: 32px;
             margin-top: 1rem;
-            border-radius: 10px;
-            background: #F8F8F8;
-            width: 780px;
-            height: 65px;
-            margin-bottom: 2rem;
         }
 
         .furs-addons-root .tag {
-            display: flex;
+            display: inline-flex;
             align-items: center;
             gap: 6px;
             background: #FFD88C;
+            font-size: 0.8rem;
+            font-weight: 500;
             padding: 5px 12px;
             border-radius: 20px;
             color: #FFF;
@@ -82,9 +74,6 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
             font-weight: 500;
             line-height: normal;
             animation: fursTagPop 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
-            width: 170px;
-            height: 24px;
-            margin: 0 !important;
         }
 
         @keyframes fursTagPop {
@@ -204,7 +193,7 @@ function renderExtrasAddons(array $addons = [], array $options = []): void
             padding-left: 32px;
         }
     </style>
-    <div class="furs-addons-root cb-container" id="furs-addons-<?= htmlspecialchars($id) ?>">
+    <div class="furs-addons-root" id="furs-addons-<?= htmlspecialchars($id) ?>">
         <h1 style="margin-bottom: 30px;"><?= $title ?></h1>
         <div class="selected-tags" id="furs-tags-<?= htmlspecialchars($id) ?>"></div>
 

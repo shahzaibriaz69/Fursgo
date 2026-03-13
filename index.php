@@ -325,10 +325,14 @@ include_once __DIR__ . '/extras-addons.php';
         renderCalendar();
     </script>
 
-    <?php renderExtrasAddons([], [
-        'instance_id' => 'groomer',
-        'on_change_js' => 'handleExtrasChange'
-    ]); ?>
+    <div class="cb-container">
+        <?php renderExtrasAddons([], [
+            'instance_id' => 'groomer',
+            'on_change_js' => 'handleExtrasChange'
+        ]); ?>
+    </div>
+
+
 
 
     <section class="cb-summary-section cb-container">
