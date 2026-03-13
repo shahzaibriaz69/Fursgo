@@ -323,6 +323,30 @@
         renderCalendar();
     </script>
 
+    <?php include 'extra&add-ons.php'; ?>
+
+    <div class="cb-summary-section cb-container">
+        <div class="cb-refund-alert">
+            You'll receive a £5.00 refund. Refunds processed in 3-5 days
+        </div>
+
+        <div class="cb-price-table">
+            <div class="cb-price-row">
+                <span class="cb-price-label">Original Total</span>
+                <span class="cb-price-value original">£48.00</span>
+            </div>
+            <div class="cb-price-row">
+                <span class="cb-price-label bold">Updated Total</span>
+                <span class="cb-price-value updated bold">£43.00</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="cb-action-footer cb-container">
+        <button class="cb-btn-outline">Cancel changes</button>
+        <button class="cb-btn-filled">Confirm changes</button>
+    </div>
+
 </body>
 
 
