@@ -4613,6 +4613,7 @@ textarea::placeholder {
   font-weight: 400;
   line-height: normal;
   margin: 0;
+  margin-bottom: 0.2rem;
 }
 
 .cb-pet-thumbnail {
@@ -4621,4 +4622,105 @@ textarea::placeholder {
   border-radius: 50%;
   border: 2px solid #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cb-update-section {
+  background: #ffffff;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+.cb-update-section h2 {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.cb-selection-container {
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+/* Left Info Column */
+.cb-current-info {
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: 12px;
+  width: 170px;
+  height: 201px;
+}
+
+.cb-info-group {
+  margin-bottom: 20px;
+}
+
+.cb-sub-text {
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* Calendar Middle Column */
+
+/* Right Time Slots */
+.cb-time-slots {
+  width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cb-availability-title {
+  color: #9ccc65;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.cb-slot {
+  border: 1px solid #dce775;
+  background: white;
+  padding: 10px;
+  border-radius: 25px;
+  color: #9ccc65;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cb-slot.active {
+  background: #c5e1a5;
+  color: white;
+  border-color: #c5e1a5;
+}
+
+/* Footer Buttons */
+.cb-modal-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.cb-btn-cancel {
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 10px 40px;
+  border-radius: 30px;
+  color: #999;
+}
+
+.cb-btn-save {
+  background: #ffcc80;
+  border: none;
+  padding: 10px 50px;
+  border-radius: 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
 }
