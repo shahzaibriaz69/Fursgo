@@ -4454,7 +4454,7 @@ textarea::placeholder {
 }
 
 .cb-booking-modal {
-  max-width: 900px;
+  max-width: 1030px;
   margin: 0 auto;
 }
 
@@ -4465,6 +4465,7 @@ textarea::placeholder {
   text-align: center;
   border-radius: 12px;
   margin-bottom: 30px;
+  margin-top: 4rem;
 }
 
 .cb-modal-header h1 {
@@ -4480,6 +4481,12 @@ textarea::placeholder {
 .cb-nav-container {
   width: 230px;
   height: 48px;
+  margin-bottom: 2rem;
+}
+
+.cb-container {
+  max-width: 820px;
+  margin: 0 auto;
 }
 
 /* Back Button */
@@ -4501,6 +4508,8 @@ textarea::placeholder {
 
 /* Card Styling */
 .cb-booking-card {
+  width: 820px;
+  height: 200px;
   background: #f8f8f8;
   border-radius: 15px;
   padding: 25px;
@@ -4523,9 +4532,9 @@ textarea::placeholder {
 
 .cb-badge {
   position: absolute;
-  top: 0;
-  left: -5px;
-  background: #b2d8b2;
+  top: -6px;
+  left: -6px;
+
   color: white;
   padding: 5px;
   border-radius: 50%;
@@ -4545,17 +4554,26 @@ textarea::placeholder {
 }
 
 .cb-category-tag {
-  background: var(--accent);
+  background: #ffc97a;
   padding: 5px 15px;
   border-radius: 20px;
-  font-size: 13px;
-  font-weight: bold;
   color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .cb-booking-ref {
-  color: var(--text-muted);
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
   font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .cb-details-row {
@@ -4565,18 +4583,22 @@ textarea::placeholder {
   padding-top: 15px;
 }
 
-.cb-detail-item {
+/* .cb-detail-item {
   padding: 0 15px;
-  border-right: 1px solid #ddd;
-}
+  border-right: 1px solid #d4d4d4;
+} */
 
 .cb-detail-item:last-of-type {
   border-right: none;
 }
 
 .cb-label {
-  font-size: 14px;
-  color: var(--text-muted);
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
   margin: 0 0 5px 0;
   display: flex;
   align-items: center;
@@ -4584,14 +4606,18 @@ textarea::placeholder {
 }
 
 .cb-value {
-  font-weight: 500;
-  color: var(--text-dark);
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   margin: 0;
 }
 
 .cb-pet-thumbnail {
-  width: 50px;
-  height: 50px;
+  width: 48px;
+  height: 48px;
   border-radius: 50%;
   border: 2px solid #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
