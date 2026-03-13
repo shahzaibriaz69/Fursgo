@@ -4877,7 +4877,7 @@ textarea::placeholder {
 .cb-modal-footer {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 22px;
   border-top: 1px solid #eae8e5;
   padding-top: 25px;
 }

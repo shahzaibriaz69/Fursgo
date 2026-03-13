@@ -230,8 +230,8 @@
                 <div class="time">09:00 AM</div>
                 <div class="time selected">11:00 AM</div>
                 <div class="time">12:00 PM</div>
-                <div class="time" id="halfDay">Half Day</div>
-                <div class="time" id="fullDay">Full-Day</div>
+                <div class="time" id="halfDay">16:00 PM</div>
+                <div class="time" id="fullDay">20:00 PM</div>
             </div>
         </div>
 
