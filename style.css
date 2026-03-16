@@ -5402,6 +5402,11 @@ textarea::placeholder {
   /* flex-grow: 1; */
 }
 
+.fs-2 {
+  padding: 12px;
+  margin-top: 0;
+}
+
 .fs-gradient-bg {
   background: linear-gradient(180deg, #ffc97a 0%, #fff 75%);
 }
@@ -5459,4 +5464,88 @@ textarea::placeholder {
 
 .fs-menu-item:hover {
   background-color: #fff8e1;
+}
+
+.fs-status-msg {
+  text-align: center;
+  color: #9d9b98;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.fs-chat-bubble {
+  padding: 10px 14px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  max-width: 80%;
+}
+
+.fs-user-msg {
+  width: 241px;
+  height: 48px;
+  background: #fdfcf8;
+  margin-left: auto;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fs-bot-msg {
+  width: 275px;
+  height: 67px;
+  border-radius: 10px 10px 0 10px;
+  background: rgba(255, 201, 122, 0.13);
+}
+
+.fs-option-buttons {
+  margin-top: 15px;
+  margin-left: 7rem;
+}
+
+.fs-opt-btn {
+  width: 251px;
+  height: 48px;
+  padding: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #eee;
+  background: #fff;
+  text-align: left;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fs-opt-btn p {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.fs-input-area {
+  margin-top: 15px;
+}
+
+.fs-chat-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.fs-input-footer {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 5px;
 }
