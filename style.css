@@ -5216,3 +5216,48 @@ textarea::placeholder {
 .price-row.bold .underline {
   color: #333;
 }
+
+/* ======= boooking update page ========= */
+
+.booking-updated-page {
+  text-align: center;
+  font-family: Arial;
+  padding: 60px 20px;
+}
+
+.update-icon {
+  margin-bottom: 25px;
+}
+
+/* heading */
+
+.update-box h2 {
+  color: #3b3731;
+  text-align: center;
+  font-family: "Playfair Display";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.update-box h2 span {
+  color: #3b3731;
+  font-family: "Playfair Display";
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 900;
+  line-height: normal;
+}
+
+/* text */
+
+.update-box p {
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
