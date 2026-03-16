@@ -5349,3 +5349,110 @@ textarea::placeholder {
   height: 35px;
   background: #ddd;
 }
+
+.fs-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Base Card Styling */
+.fs-card {
+  width: 400px;
+  height: 550px;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.fs-card-header {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  border-radius: 10px 10px 0 0;
+  border: 1px solid #ffc97a;
+  background: red;
+  padding: 20px;
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.fs-back-arrow {
+  position: absolute;
+  left: 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Body & Backgrounds */
+.fs-card-body {
+  padding: 20px;
+  flex-grow: 1;
+}
+
+.fs-gradient-bg {
+  /* border-radius: 10px; */
+  border: 1px solid #ffc97a;
+  background: linear-gradient(180deg, #ffc97a 0%, #fff 75%);
+  /* box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.05); */
+}
+
+/* Card 1 Specifics */
+
+.fs-welcome-text {
+  margin-top: 3rem;
+}
+
+.fs-welcome-text h2 {
+  color: #fff;
+  font-family: Lato;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.fs-welcome-text p {
+  color: #fff;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+
+.fs-menu-list {
+  border-radius: 10px;
+  border: 1px solid #e2e2e2;
+  background: #fff;
+  box-shadow: 0 10px 20px 2px rgba(0, 0, 0, 0.03);
+  margin-top: 1.5rem;
+}
+
+.fs-menu-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  border: 1px solid #f0f0f0;
+  color: #555;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.fs-menu-item:hover {
+  background-color: #fff8e1;
+}
