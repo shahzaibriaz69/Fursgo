@@ -285,53 +285,35 @@
             </div>
 
             <div class="fs-card-body fs-2">
-                <p class="fs-status-msg">You are speaking with FursGo.</p>
 
                 <div class="fs-chat-bubble fs-user-msg">
-                    I need support with bookings.
+                    lorem ipsum dolor sit amet.
                 </div>
 
                 <div class="fs-chat-bubble fs-bot-msg">
-                    Got it 👍 What's the issue with your booking?
+                    Thanks! Most future bookings can be changed, depending on the provider’s policy.
                 </div>
 
-                <div class="fs-option-buttons">
-                    <button class="fs-opt-btn">
-                        <div>
-                            <p> Change or cancel a booking</p>
-                        </div>
+                <div class="fs-chat-bubble fs-user-msg">
+                    That’s not what i’m asking.
+                </div>
 
-                        <div> <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="15" viewBox="0 0 8 15"
-                                    fill="none">
-                                    <path d="M0.5 0.5L7.06033 7.06033L0.610127 13.5105" stroke="#9D9B98"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg></div>
-                        </span>
-                    </button>
+                <div class="fs-chat-bubble fs-bot-msg">
+                    I couldn’t find an exact answer for that. Would you like to:
+                </div>
 
-                    <button class="fs-opt-btn">
-                        <div>
-                            <p>Booking is pending</p>
-                        </div>
+                <div class="fs-chat-bubble fs-bot-msg"
+                    style="background-color:#FBAC83; color:#fff; padding:7px; width:251; height: 48px; display: flex;  gap: 3rem;  align-items: center;">
+                    <div>
+                        <p> Submit a support request</p>
 
-                        <div> <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="15" viewBox="0 0 8 15"
-                                    fill="none">
-                                    <path d="M0.5 0.5L7.06033 7.06033L0.610127 13.5105" stroke="#9D9B98"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg></div>
-                    </button>
+                    </div>
+                    <div><span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="15" viewBox="0 0 8 15"
+                                fill="none">
+                                <path d="M0.5 0.5L7.06033 7.06033L0.610127 13.5105" stroke="white"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg></span></div>
 
-                    <button class="fs-opt-btn">
-                        <div>
-                            <p>Something else</p>
-                        </div>
-
-                        <div> <span><svg xmlns="http://www.w3.org/2000/svg" width="8" height="15" viewBox="0 0 8 15"
-                                    fill="none">
-                                    <path d="M0.5 0.5L7.06033 7.06033L0.610127 13.5105" stroke="#9D9B98"
-                                        stroke-linecap="round" stroke-linejoin="round" />
-                                </svg></div>
-                    </button>
                 </div>
 
                 <div class="fs-msg-section">
