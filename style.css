@@ -5385,7 +5385,7 @@ textarea::placeholder {
   text-align: center;
   border-radius: 10px 10px 0 0;
   border: 1px solid #ffc97a;
-  background: #ffc97a;
+  background: #f5b961;
 }
 
 .fs-back-arrow {
@@ -5532,20 +5532,66 @@ textarea::placeholder {
   font-weight: 400;
   line-height: normal;
 }
-.fs-input-area {
-  margin-top: 15px;
-}
 
 .fs-chat-input {
-  width: 100%;
+  width: 360px;
+  height: 72px;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #e2e2e2;
   border-radius: 6px;
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .fs-input-footer {
   display: flex;
   justify-content: space-between;
-  font-size: 12px;
-  margin-top: 5px;
+  border: 1px solid #e2e2e2;
+  background: #f8f8f8;
+  width: 360px;
+  height: 48px;
+  border-radius: 0px 0 10px 10px;
+}
+
+.fs-input-footer div:nth-of-type(1) {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.fs-input-footer div:nth-of-type(2) {
+  color: #d4d4d4;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+
+.fs-msg-section {
+  width: 370px;
+}
+
+.fs-chat-input-wrapper {
+  position: relative;
+}
+
+.fs-chat-input {
+  border: 1px solid #ddd;
+}
+
+.fs-send-icon {
+  position: absolute;
+  right: 28px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
