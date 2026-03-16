@@ -5012,14 +5012,10 @@ textarea::placeholder {
   text-align: center;
   font-family: Lato;
   font-size: 18px;
-  font-style: normal;
   font-weight: 600;
-  line-height: normal;
+  width: 248px;
+  height: 48px;
 }
-
-/* .cb-btn-filled:hover {
-  background: #ffb74d;
-} */
 
 .cb-extras-addons {
   background-color: #ffffff;
@@ -5031,10 +5027,9 @@ textarea::placeholder {
 
 /* =======addons-services-section======== */
 
-/* Container with Dashed Outline */
 .addons-section {
   background: #fff;
-  border: 1px solid #d4d4d4; /* Blue dashed outline from screenshot */
+  border: 1px solid #d4d4d4;
   border-radius: 12px;
   padding: 25px;
   margin-bottom: 20px;
