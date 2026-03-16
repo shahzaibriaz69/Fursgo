@@ -5261,3 +5261,85 @@ textarea::placeholder {
   font-weight: 400;
   line-height: normal;
 }
+
+.cb-appointment-card {
+  border: 1px solid #cfe2b4;
+  border-radius: 10px;
+  overflow: hidden;
+  background: white;
+  font-family: Arial;
+}
+
+/* header */
+
+.cb-appointment-header {
+  background: #e9f2dd;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.booking-ref {
+  font-size: 14px;
+  color: #555;
+}
+
+/* body */
+
+.cb-appointment-body {
+  padding: 20px;
+}
+
+/* groomer */
+
+.cb-groomer-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.groomer-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cb-groomer-name {
+  color: #777;
+  font-size: 14px;
+}
+
+.cb-home-badge {
+  background: #f7b563;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+/* meta */
+
+.cb-appointment-meta {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.cb-meta-box {
+  text-align: left;
+}
+
+.cb-meta-title {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+.cb-cb-meta-divider {
+  width: 1px;
+  height: 35px;
+  background: #ddd;
+}
