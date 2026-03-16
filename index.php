@@ -69,54 +69,58 @@
 
                 </div>
 
-                <div class="cb-appointment-card">
+                <div class=" ">
 
-                    <!-- header -->
-                    <div class="cb-appointment-header">
-                        <h3>Appointment Details</h3>
-                        <span class="booking-ref">Booking reference: FG-10294</span>
-                    </div>
+                    <div class="cb-appointment-card">
 
-                    <!-- content -->
-                    <div class="cb-appointment-body">
-
-                        <div class="cb-groomer-info">
-                            <img src="images/groomer.jpg" class="groomer-img">
-
-                            <div>
-                                <h4>Sarah’s Grooming Studio</h4>
-                                <p class="cb-groomer-name">Sarah W.</p>
-
-                                <span class="cb-home-badge">Home Visits</span>
-                            </div>
+                        <!-- header -->
+                        <div class="cb-appointment-header">
+                            <h3>Appointment Details</h3>
+                            <span class="booking-ref">Booking reference: FG-10294</span>
                         </div>
 
-                        <div class="cb-appointment-meta">
+                        <!-- content -->
+                        <div class="cb-appointment-body">
 
-                            <div class="cb-meta-box">
-                                <p class="cb-meta-title">Service</p>
-                                <span>Full Groom</span>
+                            <div class="cb-groomer-info">
+                                <img src="images/groomer.jpg" class="groomer-img">
+
+                                <div>
+                                    <h4>Sarah’s Grooming Studio</h4>
+                                    <p class="cb-groomer-name">Sarah W.</p>
+
+                                    <span class="cb-home-badge">Home Visits</span>
+                                </div>
                             </div>
 
-                            <div class="cb-meta-divider"></div>
+                            <div class="cb-appointment-meta">
 
-                            <div class="cb-meta-box">
-                                <p class="cb-meta-title">Date</p>
-                                <span>18/12/2025</span>
-                            </div>
+                                <div class="cb-meta-box">
+                                    <p class="cb-meta-title">Service</p>
+                                    <span>Full Groom</span>
+                                </div>
 
-                            <div class="cb-meta-divider"></div>
+                                <div class="cb-meta-divider"></div>
 
-                            <div class="cb-meta-box">
-                                <p class="cb-meta-title">Time</p>
-                                <span>14:30 - 15:30 (90 mins)</span>
+                                <div class="cb-meta-box">
+                                    <p class="cb-meta-title">Date</p>
+                                    <span>18/12/2025</span>
+                                </div>
+
+                                <div class="cb-meta-divider"></div>
+
+                                <div class="cb-meta-box">
+                                    <p class="cb-meta-title">Time</p>
+                                    <span>14:30 - 15:30 (90 mins)</span>
+                                </div>
+
                             </div>
 
                         </div>
 
                     </div>
-
                 </div>
+
 
             </div>
     </section>

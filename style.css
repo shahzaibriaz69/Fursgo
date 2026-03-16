@@ -5221,7 +5221,6 @@ textarea::placeholder {
 
 .booking-updated-page {
   text-align: center;
-  font-family: Arial;
   padding: 60px 20px;
 }
 
@@ -5263,14 +5262,21 @@ textarea::placeholder {
 }
 
 .cb-appointment-card {
-  border: 1px solid #cfe2b4;
   border-radius: 10px;
+  border: 1px solid #d8e8b7;
+  background: #fff;
   overflow: hidden;
-  background: white;
-  font-family: Arial;
+  width: 610px;
+  height: 304px;
 }
 
 /* header */
+
+.cb-appointment-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
 
 .cb-appointment-header {
   background: #e9f2dd;
