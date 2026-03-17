@@ -5373,7 +5373,7 @@ textarea::placeholder {
 /* Header */
 .fs-card-header {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   gap: 16px;
   padding: 20px;
@@ -5764,7 +5764,7 @@ textarea::placeholder {
 
 .fs-cookie-content {
   padding: 20px;
-  text-align: center;
+  /* text-align: center; */
   width: 360px;
 }
 
@@ -5852,6 +5852,7 @@ textarea::placeholder {
 .fs-learn-more {
   margin-top: 1rem;
   margin-left: 5rem;
+  text-align: center;
 }
 
 .fs-learn-more a {
