@@ -369,11 +369,10 @@
 
         </div>
 
-        <div class="fs-rating-overlay">
+        <!-- <div class="fs-rating-overlay">
 
             <div class="fs-rating-modal">
 
-                <!-- Header -->
                 <div class="fs-card-header">
                     <span class="fs-back-arrow"><svg xmlns="http://www.w3.org/2000/svg" width="9" height="16"
                             viewBox="0 0 9 16" fill="none">
@@ -391,7 +390,6 @@
                         </svg> FursGo Support</span>
                 </div>
 
-                <!-- Content -->
                 <div class="fs-rating-content">
 
                     <h2>How helpful was<br>this conversation?</h2>
@@ -437,13 +435,62 @@
 
             </div>
 
+
+        </div> -->
+
+        <div class="cookie-overlay">
+
+            <div class="fs-cookie-modal">
+
+                <!-- Header -->
+                <div class="fs-cookie-header">
+                    <span>Privacy Preference Center</span>
+                    <span class="fs-close-btn"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 20 20" fill="none">
+                            <circle cx="10" cy="10" r="9.5" stroke="white" />
+                            <path d="M7.11133 13.3331L13.3336 7.11084M7.11133 7.11084L13.3336 13.3331" stroke="white"
+                                stroke-width="1.5" stroke-linecap="round" />
+                        </svg></span>
+                </div>
+
+                <!-- Content -->
+                <div class="fs-cookie-content">
+
+                    <p>
+                        We use cookies to make our site work and improve your experience.
+                        You can manage your cookie preferences at any time.
+                    </p>
+
+                    <div class="fs-cookie-buttons">
+
+                        <button class="fs-allow-btn">Allow All</button>
+                        <button class="fs-decline-btn">Decline unnecessary cookies</button>
+
+                    </div>
+
+                    <button class="fs-manage-btn">
+                        <p>Manage consent preferences</p>
+                    </button>
+
+                    <div class="fs-learn-more">
+                        <a href="#">Learn More</a>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
         </div>
+
+
 
 
     </div>
 
 
-
+    <script src="script.js"></script>
 
 
 </body>

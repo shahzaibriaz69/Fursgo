@@ -169,3 +169,8 @@ document.addEventListener('click', function (e) {
         card.classList.remove('active');
     }
 });
+
+
+
+
+

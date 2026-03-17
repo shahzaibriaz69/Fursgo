@@ -5689,7 +5689,7 @@ textarea::placeholder {
 }
 
 .fs-end {
-  margin-top: 7rem;
+  margin-top: 5.5rem;
   color: #9d9b98;
   text-align: center;
   font-family: Lato;
@@ -5697,4 +5697,157 @@ textarea::placeholder {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+/* overlay */
+
+.fs-cookie-overlay {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* modal */
+
+.fs-cookie-modal {
+  width: 440px;
+  height: 314px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: Arial;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* header */
+
+.fs-cookie-header {
+  background: #ffc97a;
+  color: white;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.fs-close-btn {
+  cursor: pointer;
+}
+
+/* content */
+
+.fs-cookie-content {
+  padding: 20px;
+  text-align: center;
+  width: 360px;
+}
+
+.fs-cookie-content p {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* buttons row */
+
+.fs-cookie-buttons {
+  display: flex;
+  gap: 10px;
+  margin: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.fs-allow-btn {
+  background: #ffc97a;
+  border: none;
+  width: 118px;
+  height: 48px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fs-decline-btn {
+  background: #ffc97a;
+  border: none;
+  width: 252px;
+  height: 48px;
+  /* padding: 5px 1px; */
+  padding: 0.9px;
+  border-radius: 25px;
+  opacity: 0.85;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* manage button */
+
+.fs-manage-btn {
+  width: 360px;
+  height: 48px;
+  border-radius: 25px;
+  border: 1px solid #d4d4d4;
+  background-color: #ffffff;
+  cursor: pointer;
+  margin-bottom: 15px;
+  margin-left: 1rem;
+}
+
+.fs-manage-btn p {
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* link */
+
+.fs-learn-more {
+  margin-top: 1rem;
+  margin-left: 5rem;
+}
+
+.fs-learn-more a {
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
 }
