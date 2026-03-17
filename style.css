@@ -5699,7 +5699,7 @@ textarea::placeholder {
   line-height: normal;
 }
 
-/* overlay */
+/* fs-cookie-overlay */
 
 .fs-cookie-overlay {
   width: 100%;
@@ -5850,4 +5850,166 @@ textarea::placeholder {
   text-decoration-thickness: auto;
   text-underline-offset: auto;
   text-underline-position: from-font;
+}
+
+/* fs-consent-overlay */
+
+.fs-consent-overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* modal */
+
+.fs-consent-modal {
+  width: 400px;
+  height: 526px;
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: Arial;
+}
+
+/* header */
+
+.fs-consent-header {
+  background: #f4b86a;
+  color: white;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 500;
+}
+
+/* content */
+
+.fs-consent-content {
+  padding: 17px;
+}
+
+.fs-consent-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fs-consent-item h4 {
+  margin: 0;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.fs-consent-item p {
+  margin: 5px 0 0;
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* toggle */
+
+.toggle {
+  width: 48px;
+  height: 26px;
+  background: #e0e0e0;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 3px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* circle */
+
+.toggle .circle {
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  transition: 0.3s;
+}
+
+/* active */
+
+.toggle.active {
+  background: #f4b86a;
+  justify-content: flex-end;
+}
+
+.toggle.active .circle {
+  color: #f4b86a;
+  font-weight: bold;
+}
+
+/* disabled */
+
+.toggle.disabled {
+  background: #ddd;
+  cursor: not-allowed;
+  justify-content: flex-end;
+}
+
+.toggle.disabled .circle {
+  background: #ccc;
+  font-size: 12px;
+}
+
+/* buttons */
+
+.fs-consent-buttons {
+  text-align: center;
+}
+
+.fs-accept-all {
+  width: 360px;
+  height: 48px;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: #f4b86a;
+  color: white;
+  margin-bottom: 10px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.fs-save-btn {
+  width: 360px;
+  height: 48px;
+  padding: 12px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  color: #3b3731;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
