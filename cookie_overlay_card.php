@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <section class="cookie-overlay">
+    <section class="cookie-overlay booking-container">
 
         <div class="fs-cookie-modal">
 

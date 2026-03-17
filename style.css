@@ -5373,7 +5373,8 @@ textarea::placeholder {
 /* Header */
 .fs-card-header {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   gap: 16px;
   padding: 20px;
   color: #fff;
