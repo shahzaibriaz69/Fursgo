@@ -122,17 +122,41 @@
             <!-- Row 2 -->
             <div class="pf-form-row">
 
-                <div class="pf-field">
+                <div class="pf-pet-field">
                     <label>Name</label>
-                    <input type="text" value="Bella">
+                    <div class="input-box">
+
+                        <input type="text" value="Bella">
+
+                        <!-- RIGHT SVG -->
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                            viewBox="0 0 19 19" fill="none">
+                            <path
+                                d="M9.5 0C4.275 0 0 4.275 0 9.5C0 14.725 4.275 19 9.5 19C14.725 19 19 14.725 19 9.5C19 4.275 14.725 0 9.5 0ZM7.6 14.25L2.85 9.5L4.1895 8.1605L7.6 11.5615L14.8105 4.351L16.15 5.7L7.6 14.25Z"
+                                fill="#C9DDA0" />
+                        </svg>
+
+                    </div>
                 </div>
 
-                <div class="pf-field">
+                <div class="pf-pet-field">
                     <label>Birthday</label>
-                    <input type="text" placeholder="dd/mm/yyyy">
+
+                    <div class="input-box">
+
+                        <input type="text" placeholder="dd/mm/yyyy" style="width:195px">
+
+                        <!-- Arrow SVG -->
+                        <svg class="arrow-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="8"
+                            viewBox="0 0 15 8" fill="none">
+                            <path d="M13.5107 0.5L6.95042 7.06033L0.500215 0.610127" stroke="#3B3731"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
                 </div>
 
-                <div class="pf-field">
+                <div class="pf-pet-field">
                     <label>Sex</label>
                     <div class="radio-group">
                         <label><input type="radio"> Male</label>
@@ -145,24 +169,54 @@
             <!-- Row 3 -->
             <div class="pf-form-row">
 
-                <div class="pf-field">
+                <div class="pf-pet-field">
                     <label>Pet Type (for ‘other’ pets)</label>
-                    <input type="text" placeholder="e.g. Rabbit, Guinea Pig ...">
+                    <div class="input-box">
+
+                        <input type="text" placeholder="e.g. Rabbit, Guinea Pig ...">
+
+                        <!-- RIGHT SVG -->
+                        <svg class="check-icon" xmlns="http://www.w3.org/2000/svg" width="19" height="19"
+                            viewBox="0 0 19 19" fill="none">
+                            <path
+                                d="M9.5 0C4.275 0 0 4.275 0 9.5C0 14.725 4.275 19 9.5 19C14.725 19 19 14.725 19 9.5C19 4.275 14.725 0 9.5 0ZM7.6 14.25L2.85 9.5L4.1895 8.1605L7.6 11.5615L14.8105 4.351L16.15 5.7L7.6 14.25Z"
+                                fill="#C9DDA0" />
+                        </svg>
+
+                    </div>
+
                 </div>
 
-                <div class="pf-field">
+                <div class="pf-pet-field">
                     <label>Breed(s)</label>
                     <select>
                         <option>Labrador</option>
                     </select>
                 </div>
 
-                <div class="pf-field small">
+                <div class="pf-pet-field small">
                     <label>Weight (kg)</label>
-                    <input type="number" value="4">
+
+                    <div class="input-box">
+
+                        <input type="number" value="4" style="width: 85px;
+height: 48px;">
+
+                        <!-- SVG -->
+                        <svg class="number-icon" xmlns="http://www.w3.org/2000/svg" width="11" height="28"
+                            viewBox="0 0 11 28" fill="none">
+                            <path d="M10.374 21.5315L5.3952 26.5103L0.499963 21.6151" stroke="#3B3731"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M10.374 5.47876L5.3952 0.499941L0.499963 5.39518" stroke="#3B3731"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+
+                    </div>
                 </div>
 
             </div>
+
+
 
         </div>
 
