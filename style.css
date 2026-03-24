@@ -6085,6 +6085,16 @@ textarea::placeholder {
   flex-direction: column;
 }
 
+.pf-field label {
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 0.8rem;
+}
+
 .pf-field.small {
   max-width: 100px;
 }
@@ -6101,13 +6111,20 @@ select {
 /* toggle buttons */
 
 .pf-toggle-group {
+  width: 295px;
+  height: 48px;
   display: flex;
-  background: #f2f2f2;
+  border: 1px solid #d4d4d4;
+  background: #fff;
   border-radius: 10px;
   overflow: hidden;
 }
 
 .pf-toggle-group button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
   flex: 1;
   padding: 10px;
   border: none;
@@ -6115,9 +6132,20 @@ select {
   cursor: pointer;
 }
 
+.pf-toggle-group button p {
+  color: #d4d4d4;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 .pf-toggle-group .active {
-  background: #f4b86a;
-  color: white;
+  background: #ffc97a;
+  border: 1px solid #d4d4d4;
+  color: #fff;
 }
 
 /* radio */
