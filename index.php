@@ -216,6 +216,42 @@ height: 48px;">
 
             </div>
 
+            <div class="form-container">
+                <div class="input-group">
+                    <label class="section-label">Vaccination status</label>
+                    <div class="radio-group">
+                        <label class="radio-item">
+                            <input type="radio" name="vaccination" value="yes">
+                            <span class="custom-radio"></span>
+                            Yes
+                        </label>
+                        <label class="radio-item">
+                            <input type="radio" name="vaccination" value="no">
+                            <span class="custom-radio"></span>
+                            No
+                        </label>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label class="section-label">Medical Notes</label>
+                    <textarea
+                        placeholder="Help us keep your pets healthy and safe!&#10;(e.g allergies, sensitivities, medications, or ongoing treatments)."></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label class="section-label">Personality & behaviour</label>
+                    <textarea
+                        placeholder="Any behaviour we should know about?&#10;(e.g. Friendly with people, nervous around loud noises, doesn't like paws touched)."></textarea>
+                </div>
+
+                <div class="input-group">
+                    <label class="section-label">Grooming preferences</label>
+                    <textarea
+                        placeholder="Any style preferences?&#10;(e.g clip length, shampoo type, sensitive areas)."></textarea>
+                </div>
+            </div>
+
 
 
         </div>
