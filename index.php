@@ -252,6 +252,54 @@ height: 48px;">
                 </div>
             </div>
 
+            <div class="gallery-container">
+                <h3>Photo Gallery</h3>
+                <p class="subtitle">Show off your pet by adding additional photos.</p>
+
+                <div class="photo-grid">
+                    <div class="photo-card">
+                        <div class="paw-icon">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <label class="upload-btn">
+                            <input type="file" hidden>
+                            <span class="upload-icon">↑</span> Upload Photo
+                        </label>
+                    </div>
+
+                    <div class="photo-card">
+                        <div class="paw-icon">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <label class="upload-btn">
+                            <input type="file" hidden>
+                            <span class="upload-icon">↑</span> Upload Photo
+                        </label>
+                    </div>
+
+                    <div class="photo-card">
+                        <div class="paw-icon">
+                            <i class="fas fa-paw"></i>
+                        </div>
+                        <label class="upload-btn">
+                            <input type="file" hidden>
+                            <span class="upload-icon">↑</span> Upload Photo
+                        </label>
+                    </div>
+                </div>
+
+                <div class="notes-section">
+                    <label>Notes <span>(Optional)</span></label>
+                    <textarea
+                        placeholder="Anything your groomer should know?&#10;(e.g. anxious around dryers, allergies, behaviour cues)."></textarea>
+                </div>
+
+                <div class="action-footer">
+                    <button class="btn-cancel">Cancel</button>
+                    <button class="btn-save">Save</button>
+                </div>
+            </div>
+
 
 
         </div>
