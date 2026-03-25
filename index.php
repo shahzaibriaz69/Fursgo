@@ -216,13 +216,13 @@ height: 48px;">
 
             </div>
 
-            <div class="form-container">
-                <div class="input-group">
-                    <label class="section-label">Vaccination status</label>
-                    <div class="radio-group">
-                        <label class="radio-item">
-                            <input type="radio" name="vaccination" value="yes">
-                            <span class="custom-radio"></span>
+            <div class="pf-form-container">
+                <div class="pf-input-group">
+                    <label class="pf-section-label">Vaccination status</label>
+                    <div class="pf-radio-group">
+                        <label class="pf-radio-item">
+                            <input type="pf-radio" name="vaccination" value="yes">
+                            <span class="pf-custom-radio"></span>
                             Yes
                         </label>
                         <label class="radio-item">
@@ -233,68 +233,68 @@ height: 48px;">
                     </div>
                 </div>
 
-                <div class="input-group">
-                    <label class="section-label">Medical Notes</label>
+                <div class="pf-input-group">
+                    <label class="pf-section-label">Medical Notes</label>
                     <textarea
                         placeholder="Help us keep your pets healthy and safe!&#10;(e.g allergies, sensitivities, medications, or ongoing treatments)."></textarea>
                 </div>
 
-                <div class="input-group">
-                    <label class="section-label">Personality & behaviour</label>
+                <div class="pf-input-group">
+                    <label class="pf-section-label">Personality & behaviour</label>
                     <textarea
                         placeholder="Any behaviour we should know about?&#10;(e.g. Friendly with people, nervous around loud noises, doesn't like paws touched)."></textarea>
                 </div>
 
-                <div class="input-group">
-                    <label class="section-label">Grooming preferences</label>
+                <div class="pf-input-group">
+                    <label class="pf-section-label">Grooming preferences</label>
                     <textarea
                         placeholder="Any style preferences?&#10;(e.g clip length, shampoo type, sensitive areas)."></textarea>
                 </div>
             </div>
 
-            <div class="gallery-container">
+            <div class="pf-gallery-container">
                 <h3>Photo Gallery</h3>
-                <p class="subtitle">Show off your pet by adding additional photos.</p>
+                <p class="pf-subtitle">Show off your pet by adding additional photos.</p>
 
-                <div class="photo-grid">
-                    <div class="photo-card">
-                        <div class="paw-icon">
+                <div class="pf-photo-grid">
+                    <div class="pf-photo-card">
+                        <div class="pf-paw-icon">
                             <i class="fas fa-paw"></i>
                         </div>
-                        <label class="upload-btn">
-                            <input type="file" hidden>
-                            <span class="upload-icon">↑</span> Upload Photo
+                        <label class="pf-upload-btn">
+                            <input type="pf-file" hidden>
+                            <span class="pf-upload-icon">↑</span> Upload Photo
                         </label>
                     </div>
 
-                    <div class="photo-card">
-                        <div class="paw-icon">
+                    <div class="pf-photo-card">
+                        <div class="pf-paw-icon">
                             <i class="fas fa-paw"></i>
                         </div>
-                        <label class="upload-btn">
-                            <input type="file" hidden>
-                            <span class="upload-icon">↑</span> Upload Photo
+                        <label class="pf-upload-btn">
+                            <input type="pf-file" hidden>
+                            <span class="pf-upload-icon">↑</span> Upload Photo
                         </label>
                     </div>
 
-                    <div class="photo-card">
-                        <div class="paw-icon">
+                    <div class="pf-photo-card">
+                        <div class="pf-paw-icon">
                             <i class="fas fa-paw"></i>
                         </div>
-                        <label class="upload-btn">
-                            <input type="file" hidden>
-                            <span class="upload-icon">↑</span> Upload Photo
+                        <label class="pf-upload-btn">
+                            <input type="pf-file" hidden>
+                            <span class="pf-upload-icon">↑</span> Upload Photo
                         </label>
                     </div>
                 </div>
 
-                <div class="notes-section">
+                <div class="pf-notes-section">
                     <label>Notes <span>(Optional)</span></label>
                     <textarea
                         placeholder="Anything your groomer should know?&#10;(e.g. anxious around dryers, allergies, behaviour cues)."></textarea>
                 </div>
 
-                <div class="action-footer">
+                <div class="pf-action-footer">
                     <button class="btn-cancel">Cancel</button>
                     <button class="btn-save">Save</button>
                 </div>
