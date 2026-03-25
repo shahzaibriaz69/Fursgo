@@ -6222,7 +6222,7 @@ textarea::placeholder {
   margin-bottom: 25px;
 }
 
-.section-label {
+.pf-section-label {
   display: block;
   margin-bottom: 12px;
   color: #3b3731;
@@ -6231,12 +6231,14 @@ textarea::placeholder {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
+  margin-top: 1rem;
 }
 
 /* Radio Buttons Styling */
 .pf-radio-group {
   display: flex;
   gap: 20px;
+  margin-bottom: 1rem;
 }
 
 .pf-radio-item {
@@ -6283,25 +6285,22 @@ textarea::placeholder {
 }
 
 /* Textarea Styling */
-textarea {
+.pf-textarea {
   width: 100%;
   min-height: 80px;
-  border: 1.5px solid var(--border-color);
   border-radius: 10px;
   padding: 12px 15px;
-  font-size: 14px;
-  resize: vertical;
+  font-size: 16px;
+  font-weight: 400;
   outline: none;
-  color: var(--text-color);
   line-height: 1.4;
 }
 
-textarea::placeholder {
-  color: var(--placeholder-color);
+.pf-textarea::placeholder {
   white-space: pre-line; /* Is se placeholder line break show karega */
 }
 
-textarea:focus {
+.pf-textarea:focus {
   border-color: #b0b0b0;
 }
 
@@ -6309,13 +6308,22 @@ textarea:focus {
   color: #444;
 }
 
-h3 {
-  margin-bottom: 5px;
-  font-size: 18px;
+.pf-gallery-container h3 {
+  margin-top: 1rem;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 .pf-subtitle {
-  color: #888;
+  color: #9d9b98;
+  font-family: Lato;
   font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
   margin-bottom: 25px;
 }
 
@@ -6328,9 +6336,10 @@ h3 {
 
 .pf-photo-card {
   flex: 1;
-  background: #f9f9f9; /* Light background like image */
+  background: #fafafa; /* Light background like image */
   border-radius: 12px;
-  height: 200px;
+  width: 225px;
+  height: 225px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6344,16 +6353,18 @@ h3 {
 }
 
 .pf-upload-btn {
-  border: 1px solid #333;
-  padding: 8px 20px;
-  border-radius: 25px;
-  font-size: 14px;
+  border-radius: 96px;
+  border: 1px solid #3b3731;
   cursor: pointer;
-  background: white;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 8px;
-  font-weight: 500;
+  width: 162px;
+  height: 48px;
+  color: #3b3731;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 /* Notes Area */
@@ -6362,12 +6373,21 @@ h3 {
 }
 .pf-notes-section label {
   display: block;
-  font-weight: bold;
+  color: #3b3731;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
   margin-bottom: 10px;
 }
 .pf-notes-section label span {
-  color: #888;
-  font-weight: normal;
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 textarea {
@@ -6393,22 +6413,28 @@ textarea {
   padding: 15px;
   border-radius: 30px;
   border: none;
-  font-size: 16px;
-  font-weight: 600;
   cursor: pointer;
 }
 
 .btn-cancel {
   background: white;
   border: 1px solid #e0e0e0;
-  color: #888;
+  color: #9d9b98;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .btn-save {
-  background: #ffcc80; /* Light orange/peach color */
-  color: white;
-}
-
-.btn-save:hover {
-  background: #ffb74d;
+  color: #fff;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #ffc97a;
 }
