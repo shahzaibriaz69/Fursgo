@@ -2159,9 +2159,8 @@ h2 {
   line-height: normal;
 }
 
-/* Jo tab select hoga uska color change ho jaye ga */
 .tab-link.active {
-  border-bottom: 2px solid #ffc97a; /* Neeche line aa jayegi */
+  border-bottom: 2px solid #ffc97a;
   color: #fff;
   text-align: center;
   font-family: Lato;
@@ -2171,7 +2170,6 @@ h2 {
   line-height: normal;
 }
 
-/* Sections ke switch hone par halka sa fade effect */
 .tab-content {
   animation: fadeIn 0.4s ease;
 }
@@ -6075,7 +6073,7 @@ textarea::placeholder {
 
 .pf-form-row {
   display: flex;
-  gap: 35px;
+  gap: 30px;
   margin-bottom: 15px;
 }
 
@@ -6172,6 +6170,18 @@ textarea::placeholder {
   display: flex;
   gap: 10px;
   margin-top: 10px;
+  max-width: 100px;
+}
+
+.radio-group label {
+  color: #9d9b98;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  gap: 12px;
 }
 
 .input-box {
@@ -6184,8 +6194,7 @@ textarea::placeholder {
   height: 48px;
   border: 1px solid #ddd;
   border-radius: 10px;
-  padding: 0 40px 0 12px; /* right space icon ke liye */
-  font-size: 14px;
+  padding: 0 40px 0 12px;
 }
 
 /* SVG positioning */
@@ -6216,6 +6225,10 @@ textarea::placeholder {
 .pf-pet-field.small .input-box {
   position: relative;
   width: 85px;
+}
+
+.pf-pet-field option {
+  width: 295px;
 }
 
 .input-group {
@@ -6254,7 +6267,7 @@ textarea::placeholder {
 }
 
 .pf-radio-item input {
-  display: none; /* Original hide kiya */
+  display: none;
 }
 
 .pf-custom-radio {
@@ -6276,7 +6289,7 @@ textarea::placeholder {
   content: "";
   width: 12px;
   height: 12px;
-  background: #ffc97a; /* Soft gray fill */
+  background: #ffc97a;
   border-radius: 50%;
   position: absolute;
   top: 49%;
@@ -6297,7 +6310,7 @@ textarea::placeholder {
 }
 
 .pf-textarea::placeholder {
-  white-space: pre-line; /* Is se placeholder line break show karega */
+  white-space: pre-line;
 }
 
 .pf-textarea:focus {
@@ -6336,7 +6349,7 @@ textarea::placeholder {
 
 .pf-photo-card {
   flex: 1;
-  background: #fafafa; /* Light background like image */
+  background: #fafafa;
   border-radius: 12px;
   width: 225px;
   height: 225px;
@@ -6345,11 +6358,6 @@ textarea::placeholder {
   align-items: center;
   justify-content: center;
   gap: 15px;
-}
-
-.pf-paw-icon {
-  font-size: 50px;
-  color: #e0e0e0; /* Faded paw color */
 }
 
 .pf-upload-btn {
@@ -6437,4 +6445,37 @@ textarea {
   font-weight: 700;
   line-height: normal;
   background-color: #ffc97a;
+}
+
+.select-wrapper {
+  position: relative;
+  width: 295px;
+}
+
+.select-wrapper select {
+  width: 100%;
+  height: 48px;
+  padding: 0 15px;
+  border: 1px solid #d4d4d4;
+  border-radius: 10px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-color: white;
+  font-family: "Lato", sans-serif;
+  color: #3b3731;
+  outline: none;
+  cursor: pointer;
+}
+
+.select-icon {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.select-wrapper select:hover {
+  border-color: #ffc671;
 }

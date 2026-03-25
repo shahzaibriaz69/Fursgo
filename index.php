@@ -94,7 +94,7 @@
                     </div>
                 </div>
 
-                <div class="pf-field">
+                <div class="pf-field" style="flex:2;">
                     <label>Select Pet Size</label>
                     <div class="pf-toggle-group" style="width:410px;">
                         <button>
@@ -157,11 +157,14 @@
                 </div>
 
                 <div class="pf-pet-field">
-                    <label>Sex</label>
-                    <div class="radio-group">
-                        <label><input type="radio"> Male</label>
-                        <label><input type="radio"> Female</label>
+                    <div style=" margin-left:-6.5rem;"> <label>Sex</label>
+                        <div class="radio-group"
+                            style="display:flex; justify-content: space-around; margin-top: 1.5rem ;">
+                            <label><input type="radio"> Male</label>
+                            <label><input type="radio"> Female</label>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
@@ -189,9 +192,18 @@
 
                 <div class="pf-pet-field">
                     <label>Breed(s)</label>
-                    <select>
-                        <option>Labrador</option>
-                    </select>
+                    <div class="select-wrapper">
+                        <select>
+                            <option>Labrador</option>
+                            <option>Pug</option>
+                            <option>German Shepherd</option>
+                        </select>
+                        <svg class="select-icon" xmlns="http://www.w3.org/2000/svg" width="15" height="8"
+                            viewBox="0 0 15 8" fill="none">
+                            <path d="M13.8735 0.5L7.13009 7.24344L0.499853 0.6132" stroke="#3B3731"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
                 </div>
 
                 <div class="pf-pet-field small">
